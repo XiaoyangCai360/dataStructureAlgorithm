@@ -50,5 +50,5 @@
 | 题号 | 标题 | 标签 | 难度 |
 | ----------- | ----------- | ----------- | ----------- |
 | 0066 | [加一 Plus One](https://leetcode.com/problems/plus-one/description/) | 数组 | 简单 |
-| 0724 | 寻找数组的中心下标 | 数组 | 简单 |
+| 0724 | [寻找数组的中心下标 Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 数组 | 简单 |
 | 0485 |  | 数组 | 简单 |
