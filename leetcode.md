@@ -20,6 +20,6 @@
 | 题号 | 标题 | 标签 | 难度 | 日期 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0374 | [猜数字大小 Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 二分查找 | 简单 | 2023.5.7
-| 0367 | [有效的完全平方数 Valid Perfect Squares](https://leetcode.com/problems/valid-perfect-square/) | 二分查找 | 简单 |
+| 0367 | [有效的完全平方数 Valid Perfect Squares](https://leetcode.com/problems/valid-perfect-square/) | 二分查找 | 简单 | 2023.5.7
 | 0033 | [搜索旋转排序数列 Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| 二分查找 | 中等 |
 
