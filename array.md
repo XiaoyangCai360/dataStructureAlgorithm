@@ -56,3 +56,7 @@
 | 0485 | [最大连续1的个数 Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)| 数组 | 简单 |
 | 0189 | [轮换数组 Rotate Array](https://leetcode.com/problems/rotate-array/)| 数组 | 中等 |
 | 0238 | [除自身以外数组的乘积 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| 数组 | 中等 |
+
+### 4.二分查找 Binary Search Algorithm
+> 二分查找过程：
+> 1. 从数组中间
