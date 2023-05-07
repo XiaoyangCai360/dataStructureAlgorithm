@@ -84,7 +84,7 @@
 ##### 4.2.3 解题思路
 二分法的区间定义一般分为两种，**左闭右闭**`[left, right]`或者**左闭右开**`[left, right)`。
 
-###### 4.2.3.1 **左闭右闭**`[left, right]`
+##### 4.2.3.1 **左闭右闭**`[left, right]`
 - `left = 0, right = len(nums) - 1`。`left`为数组第一个元素，`right`为数组最后一个元素，`[left, right]`上的元素都能取到。
 - `if nums[middle] > target`，`right`赋值为`middle - 1`，因为当前`nums[middle] != target`，继续在`[left, middle - 1]`中搜索。
 - `if nums[middle] < target`，`left`赋值为`middle + 1`，因为当前`nums[middle] != target`，继续在`[middle + 1, right]`中搜索。
@@ -122,4 +122,4 @@ class Solution(object):
     # 出界就代表没有找到，返回 -1
     return -1
 ```
-###### 4.2.3.2 **左闭右开**`[left, right)`
+##### 4.2.3.2 **左闭右开**`[left, right)`
