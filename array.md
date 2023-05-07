@@ -105,7 +105,8 @@ class Solution(object):
     # 在[left, right]区间查找
     # 如果找到就返回
     while left <= right:
-        middle = (left + right) // 2
+        middle = left + (right - left) // 2
+        # middle = (left + right) // 2
         
         # nums[middle] == target, 返回middle
         if nums[middle] == target:
