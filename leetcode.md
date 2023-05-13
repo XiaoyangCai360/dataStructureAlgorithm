@@ -23,3 +23,11 @@
 | 0374 | [猜数字大小 Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 二分查找 | 简单 | 2023.5.7
 | 0367 | [有效的完全平方数 Valid Perfect Squares](https://leetcode.com/problems/valid-perfect-square/) | 二分查找 | 简单 | 2023.5.7
 | 0033 | [搜索旋转排序数列 Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| 二分查找 | 中等 |
+
+## 3. 链表 Linked List
+
+### 3.1 链表基础
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0083| [删除排序链表中的重复元素 Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 链表 | 简单 | 2023.5.13
+| 0082| [删除排序链表中的重复元素II Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/) | 链表，链表双指针 | 中等 |2023.5.13 
