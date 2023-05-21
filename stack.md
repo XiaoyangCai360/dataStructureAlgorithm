@@ -331,4 +331,5 @@ class Solution(object):
 | 题号 | 标题 | 标签 | 难度 |
 | ----------- | ----------- | ----------- | ----------- |
 | 0020| [有效的括号 Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 堆栈 | 简单
+| 1047| [删除字符串中的所有相邻重复项 Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)| 堆栈 | 简单
 | 0227| [基本计算器II Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | 堆栈 | 中等
