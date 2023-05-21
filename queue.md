@@ -122,3 +122,4 @@ class queue:
         else:
             return self.queue[self.rear]
 ```
+
