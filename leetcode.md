@@ -11,6 +11,8 @@
 | 0485 | [最大连续1的个数 Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)| 数组 | 简单 | 2023.5.6
 | 0238 | [正整数和负整数的最大计数 Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)| 数组 | 简单 | 2023.5.7
 | 1822 | [数组元素积的符号 Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)| 数组 | 简单 | 2023.5.22
+| 2215 | [找出两数组的不同 Find the Difference of Two arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
+| 0349 | [两个数组的交集 Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
 | 0189 | [轮换数组 Rotate Array](https://leetcode.com/problems/rotate-array/)| 数组 | 中等 | 2023.5.7
 | 0238 | [除自身以外数组的乘积 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| 数组 | 中等 |
 
