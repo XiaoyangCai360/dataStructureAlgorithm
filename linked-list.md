@@ -187,7 +187,7 @@ def insertTail(self, val):
     node = ListNode(val)
     cur = self.head # 定义辅助指针
 
-    while cur:
+    while cur.next:
         cur = cur.next
     
     cur.next = node
