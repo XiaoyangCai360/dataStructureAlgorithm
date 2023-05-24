@@ -125,7 +125,7 @@ class Stack:
 * **链式节点**：构造链式节点`Node`类。
 
 ```
-# Node class for help
+# helper Node class
 class Node:
     def __init__(self, val):
         self.val = val
