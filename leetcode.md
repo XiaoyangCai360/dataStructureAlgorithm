@@ -50,4 +50,4 @@
 ### 5.1 队列基础相关题目
 | 题号 | 标题 | 标签 | 难度 | 日期 | 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| 0225| [用队列实现栈 Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 队列、堆栈 | 简单 | 
+| 0225| [用队列实现栈 Implement Stack using Queues](https://leetcode.com/problems/implement-stack-using-queues/) | 队列、堆栈 | 简单 | 2023.6.3 
