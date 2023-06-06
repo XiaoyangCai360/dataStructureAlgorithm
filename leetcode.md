@@ -6,16 +6,18 @@
 
 | 题号 | 标题 | 标签 | 难度 | 日期 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| 0027 | [移除元素 Remove Element](https://leetcode.com/problems/remove-element/description/) | 数组 | 简单 | 2023.6.6
 | 0066 | [加一 Plus One](https://leetcode.com/problems/plus-one/description/) | 数组 | 简单 | 2023.5.5
 | 0724 | [寻找数组的中心下标 Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 数组 | 简单 | 2023.5.6
 | 0485 | [最大连续1的个数 Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)| 数组 | 简单 | 2023.5.6
 | 0238 | [正整数和负整数的最大计数 Maximum Count of Positive Integer and Negative Integer](https://leetcode.com/problems/maximum-count-of-positive-integer-and-negative-integer/description/)| 数组 | 简单 | 2023.5.7
+| 0189 | [轮换数组 Rotate Array](https://leetcode.com/problems/rotate-array/)| 数组 | 中等 | 2023.5.7
 | 1822 | [数组元素积的符号 Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)| 数组 | 简单 | 2023.5.22
 | 2215 | [找出两数组的不同 Find the Difference of Two arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
 | 0349 | [两个数组的交集 Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
-| 0189 | [轮换数组 Rotate Array](https://leetcode.com/problems/rotate-array/)| 数组 | 中等 | 2023.5.7
+| 0027 | [移除元素 Remove Element](https://leetcode.com/problems/remove-element/description/) | 数组 | 简单 | 2023.6.6
+| 0977 | [有序数组的平方 Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | 数组 | 简单 | 2023.6.6
 | 0238 | [除自身以外数组的乘积 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| 数组 | 中等 |
+
 
 
 ## 2. 二分查找 Binary Search
