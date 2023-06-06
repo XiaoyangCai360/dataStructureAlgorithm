@@ -51,6 +51,7 @@
 | 题号 | 标题 | 标签 | 难度 |
 | ----------- | ----------- | ----------- | ----------- |
 | 0066 | [加一 Plus One](https://leetcode.com/problems/plus-one/description/) | 数组 | 简单 |
+| 0027 | [移除元素 Remove Element](https://leetcode.com/problems/remove-element/description/) | 数组 | 简单 |
 | 0724 | [寻找数组的中心下标 Find Pivot Index](https://leetcode.com/problems/find-pivot-index/) | 数组 | 简单 |
 | 0485 | [最大连续1的个数 Max Consecutive Ones](https://leetcode.com/problems/max-consecutive-ones/description/)| 数组 | 简单 |
 | 1822 | [数组元素积的符号 Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)| 数组 | 简单 |
