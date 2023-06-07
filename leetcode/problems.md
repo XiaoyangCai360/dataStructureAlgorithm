@@ -15,7 +15,7 @@
 | 2215 | [找出两数组的不同 Find the Difference of Two arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
 | 0349 | [两个数组的交集 Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
 | 0027 | [移除元素 Remove Element](/leetcode/0027_%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.md) | 数组 | 简单 | 2023.6.6
-| 0977 | [有序数组的平方 Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | 数组 | 简单 | 2023.6.6
+| 0977 | [有序数组的平方 Squares of a Sorted Array](/leetcode/0977_有序数组的平方.md) | 数组 | 简单 | 2023.6.6
 | 0238 | [除自身以外数组的乘积 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| 数组 | 中等 |
 
 
