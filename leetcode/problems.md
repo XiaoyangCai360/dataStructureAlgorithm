@@ -15,9 +15,9 @@
 | 2215 | [找出两数组的不同 Find the Difference of Two arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
 | 0349 | [两个数组的交集 Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
 | 0027 | [移除元素 Remove Element](/leetcode/0027_%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.md) | 数组 | 简单 | 2023.6.6
-| 0977 | [有序数组的平方 Squares of a Sorted Array](/leetcode/0977_有序数组的平方.md) | 数组 | 简单 | 2023.6.6
+| 0977 | [有序数组的平方 Squares of a Sorted Array](/leetcode/0977_%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.md) | 数组 | 简单 | 2023.6.6
 | 0209 | [长度最小的子数组 Minimum Size Subarray Sum](/leetcode/0209_%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) | 数组 | 中等 | 2023.6.8
-| 0059 | [螺旋数组II Spiral Matrix II]() | 数组 | 中等 | 2023.6.12
+| 0059 | [螺旋数组II Spiral Matrix II](/leetcode/0059_%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5II.md) | 数组 | 中等 | 2023.6.12
 | 0238 | [除自身以外数组的乘积 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| 数组 | 中等 |
 
 

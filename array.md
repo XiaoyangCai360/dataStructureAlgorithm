@@ -59,4 +59,7 @@
 | 0349 | [两个数组的交集 Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)| 数组 | 简单
 | 0977 | [有序数组的平方 Squares of a Sorted Array](https://leetcode.com/problems/squares-of-a-sorted-array/description/) | 数组 | 简单 
 | 0189 | [轮换数组 Rotate Array](https://leetcode.com/problems/rotate-array/)| 数组 | 中等 |
+| 0209 | [长度最小的子数组 Minimum Size Subarray Sum](https://leetcode.com/problems/minimum-size-subarray-sum/description/) | 数组 | 中等 | 
+| 0059 | [螺旋数组II Spiral Matrix II](https://leetcode.com/problems/spiral-matrix-ii/) | 数组 | 中等 | 
 | 0238 | [除自身以外数组的乘积 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| 数组 | 中等 |
+
