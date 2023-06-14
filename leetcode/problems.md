@@ -42,6 +42,7 @@
 | 0082 | [删除排序链表中的重复元素II Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/) | 链表，链表双指针 | 中等 |2023.5.13 
 | 0707 | [设计链表 Design Linked List](/leetcode/0707_%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8.md) | 链表 | 中等 | 2023.5.22, 2023.6.13
 | 0203 | [移除链表元素 Remove Linked List Element](/leetcode/0203_%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0.md) | 链表 | 简单 | 2023.6.13
+| 0206 | [反转链表 Reverse Linked List](/leetcode/0206_%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | 链表 | 简单 | 2023.6.14
 
 ## 4. 堆栈 Stack
 
