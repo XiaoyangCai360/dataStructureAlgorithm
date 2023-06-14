@@ -43,6 +43,7 @@
 | 0707 | [设计链表 Design Linked List](/leetcode/0707_%E8%AE%BE%E8%AE%A1%E9%93%BE%E8%A1%A8.md) | 链表 | 中等 | 2023.5.22, 2023.6.13
 | 0203 | [移除链表元素 Remove Linked List Element](/leetcode/0203_%E7%A7%BB%E9%99%A4%E9%93%BE%E8%A1%A8%E5%85%83%E7%B4%A0.md) | 链表 | 简单 | 2023.6.13
 | 0206 | [反转链表 Reverse Linked List](/leetcode/0206_%E5%8F%8D%E8%BD%AC%E9%93%BE%E8%A1%A8.md) | 链表 | 简单 | 2023.6.14
+| 0024| [两两交换链表的节点 Swap Nodes in Pairs](/leetcode/0024_%E4%B8%A4%E4%B8%A4%E4%BA%A4%E6%8D%A2%E9%93%BE%E8%A1%A8%E4%B8%AD%E7%9A%84%E8%8A%82%E7%82%B9.md) | 链表 | 中等 | 2023.6.14
 
 ## 4. 堆栈 Stack
 
