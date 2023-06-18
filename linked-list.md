@@ -300,6 +300,7 @@ def insertAtIndex(self, index):
 | 题号 | 标题 | 标签 | 难度 |
 | ----------- | ----------- | ----------- | ----------- |
 | 0083| [删除排序链表中的重复元素 Remove Duplicates from Sorted List](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | 链表 | 简单
+| 0160| [链表相交 Intersection of Two Linked Lists](https://leetcode.com/problems/intersection-of-two-linked-lists/)| 链表 | 简单 |
 | 0203 | [移除链表元素 Remove Linked List Element](https://leetcode.com/problems/remove-linked-list-elements/description/) | 链表 | 简单 |
 | 0206 | [反转链表 Reverse Linked List](https://leetcode.com/problems/reverse-linked-list/) | 链表 | 简单 |
 | 0019| [删除链表倒数第N个节点 Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | 链表 | 中等
