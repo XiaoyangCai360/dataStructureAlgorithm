@@ -52,7 +52,7 @@
 
 * **空栈初始化**：使用列表`list`创建一个空栈，定义栈大小`self.size`，令栈顶指针指向`-1`。
 
-```
+```Python
 class Stack:
     # initilize an empty stack
     def __init__(self, size==100):
@@ -63,7 +63,7 @@ class Stack:
 
 * **判断栈是否为空**：当栈顶指针`self.top`等于`-1`时说明栈为空，返回`True,`否则返回`False`。
 
-```
+```Python
     # check if the stack is empty
     def isEmpty(self):
         return self.top == -1
@@ -71,7 +71,7 @@ class Stack:
 
 * **判断栈是否已满**：当栈顶指针`self.top`等于`self.size - 1`时说明堆栈已满，返回`True,`否则返回`False`。 
 
-```
+```Python
     # check if the stack is full
     def isFull(self):
         return self.top == self.size - 1
@@ -79,7 +79,7 @@ class Stack:
 
 * **插入元素**：即`Push`。先判断堆栈是否**已满**，如果已满抛出异常。如果没满，在`self.stack`末尾插入元素，`self.top`向右移动一位。
 
-```
+```Python
     # add one element to the stack
     def push(self, val):
         if self.isFull():
@@ -91,7 +91,7 @@ class Stack:
 
 * **删除元素**：即`Pop`。先判断堆栈是否**为空**，如果为空抛出异常。如果不为空，在`self.stack`末尾删除元素，`self.top`向左移动一位。
 
-```
+```Python
     # delete one element from the stack
     def pop(self):
         if self.isEmpty():
@@ -103,7 +103,7 @@ class Stack:
 
 * **获取栈顶元素**：即`Peek`。先判断堆栈是否**为空**，如果为空抛出异常。如果不为空，返回`self.top`指向的栈顶元素，即`self.stack[self.top]`。
 
-```
+```Python
     # get the top element of the stack
     def peek(self):
         if self.isEmpty():
@@ -124,7 +124,7 @@ class Stack:
 
 * **链式节点**：构造链式节点`Node`类。
 
-```
+```Python
 # helper Node class
 class Node:
     def __init__(self, val):
@@ -134,7 +134,7 @@ class Node:
 
 * **空栈初始化**：令栈顶指针`self.top`指向`None`。
 
-```
+```Python
 class Stack:
     def __init__(self, top):
         self.top = None
@@ -142,7 +142,7 @@ class Stack:
 
 * **判断栈是否为空**：当栈顶指针`self.top`等于`None`时说明栈为空，返回`True,`否则返回`False`。
 
-```
+```Python
     # check if the stack is empty
     def isEmpty(self):
         return self.top == None
@@ -150,7 +150,7 @@ class Stack:
 
 * **插入元素**：即`Push`。创建值为`val`的节点，插入到链表头节点之前，并使栈顶指针`self.top`指向新的头节点。
 
-```
+```Python
     # add one element to the stack
     def push(self, val):
         cur = Node(val)
@@ -160,7 +160,7 @@ class Stack:
 
 * **删除元素**：即`Pop`。先判断堆栈是否**为空**，如果为空抛出异常。如果不为空，先定义辅助节点`cur`指向栈顶指针`self.top`指向的当前头节点，然后让栈顶指针向**右**移动一位，删除`cur`指向的节点。
 
-```
+```Python
     # delete one element from the stack
     def pop(self):
         if self.isEmpty():
@@ -173,7 +173,7 @@ class Stack:
 
 * **获取栈顶元素**：即`Peek`。先判断堆栈是否**为空**，如果为空抛出异常。如果不为空，返回`self.top`指向的栈顶节点的`val`，即`self.top.val`。
 
-```
+```Python
     # get the top element of the stack
     def peek(self):
         if self.isEmpty():
@@ -219,7 +219,7 @@ class Stack:
 
 具体代码实现：
 
-```
+```Python
 class Solution(object):
     def isValid(self, s):
         """
@@ -287,7 +287,7 @@ class Solution(object):
 
 具体代码实现：
 
-```
+```Python
 class Solution(object):
     def calculate(self, s):
         """
