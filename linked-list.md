@@ -41,7 +41,7 @@
   
 **C/C++**:
 
-```
+```C++
 // Single Linked List
 struct ListNode {
     int val; // 节点存储的元素
@@ -51,19 +51,19 @@ struct ListNode {
 ```
 
 使用自己定义的构造函数定义节点，在初始化链表的同时赋值：
-```
+```C++
 ListNode* head = new ListNode(5);
 ```
 
 使用默认构造函数初始化节点，然后再赋值：
-```
+```C++
 ListNode* head = new ListNode();
 head->val = 5
 ```
 
 **Python**:
 
-```
+```Python
 # ListNode class
 class ListNode:
     def __init__(self, val==0, next==None):
@@ -89,7 +89,7 @@ class LinekedList:
 3. 插入完毕后返回第`1`个元素的地址
 
 **Python**:
-```
+```Python
 # create a linked list based on data
 # data: linear list(array)
 
@@ -113,7 +113,7 @@ def create(self, data):
 3. 当辅助指针`cur`指向空`None`时，结束遍历，返回计数器`count`数值即为链表长度。
 
 **Python**:
-```
+```Python
 # get linked list length
 def length(self):
     int count = 0
@@ -134,7 +134,7 @@ def length(self):
 
 
 **Python**:
-```
+```Python
 # find element with certain val
 def find(self, val):
     cur = self.head # 定义辅助指针指向头节点
@@ -162,7 +162,7 @@ def find(self, val):
 3. 头节点`head`的指针指向`node`
 
 **Python**:
-```
+```Python
 # insert element in the front of the linked list
 def insertFront(self, val):
     node = ListNode(val)
@@ -181,7 +181,7 @@ def insertFront(self, val):
 4. `cur.next`指向`node`
 
 **Python**:
-```
+```Python
 # insert element in the tail of the linked list
 def insertTail(self, val):
     node = ListNode(val)
@@ -205,7 +205,7 @@ def insertTail(self, val):
 6. `cur.next`指向`node`
 
 **Python**:
-```
+```Python
 # insert element at certain index of the linked list
 def insertAtIndex(self, val, index):
     int count = 0 
@@ -235,7 +235,7 @@ def insertAtIndex(self, val, index):
 直接将`self.head`向后(右)移动一位。
 
 **Python**:
-```
+```Python
 # delete element in the front of the linked list
 def deleteFront(self):
     if self.head:
@@ -252,7 +252,7 @@ def deleteFront(self):
 4. `cur.next`指向`node`
 
 **Python**:
-```
+```Python
 # delete element in the tail of the linked list
 def deleteTail(self):
     cur = self.head
@@ -275,7 +275,7 @@ def deleteTail(self):
 4. `cur.next`指向`cur.next.next`。
 
 **Python**:
-```
+```Python
 # delete element at certain index of the linked list
 def insertAtIndex(self, index):
     int count = 0 
