@@ -34,7 +34,7 @@
 - 时间复杂度：`O(logn)`；空间复杂度：`O(1)`。
 
 具体代码实现：
-```
+```Python
 class Solution(object):
     def search(self, nums, target):
         """
@@ -75,7 +75,7 @@ class Solution(object):
 - 时间复杂度：`O(logn)`；空间复杂度：`O(1)`。
 
 具体代码实现：
-```
+```Python
 class Solution(object):
     def search(self, nums, target):
         """
