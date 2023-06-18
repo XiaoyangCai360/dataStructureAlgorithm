@@ -12,7 +12,7 @@
 #### 2.1 定义数组       
 
 `Python`: 使用了类似`Java`中的`ArrayList`容器类数据结构，即列表
-```
+```Python
     list1 = []  # 定义空数组
     list2 = list()  # 定义空数组
     list3 = [i for i in range(5)] # list3 = [0,1,2,3,4]
