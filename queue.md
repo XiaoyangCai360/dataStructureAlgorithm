@@ -52,7 +52,7 @@
 
 * **初始化空队列**：创建一个空队列`self.queue`，定义大小为`self.size`，定义队头元素指针`self.front`和队尾元素指针为`self.rear`都指向`-1`。
 
-```
+```Python
 class queue:
     # initilize an empty queue
     def __init__(self, size==100):
@@ -64,7 +64,7 @@ class queue:
 
 * **判断队列是否为空**：如果队头元素指针`self.front`和队尾元素指针`self.rear`相等，则说明队列为空，否则不为空。
 
-``` 
+``` Python
     # check if the queue is empty
     def isEmpty(self):
         return self.front == self.rear
@@ -72,14 +72,14 @@ class queue:
 
 * **判断队列是否为满**：如果队尾元素指针`self.rear`指向最后一个位置，即`self.rear = self.size - 1`，说明队列已满，否则不满。
 
-```
+```Python
     # check if the queue is full
     def isFull(self):
         return self.rear == self.size - 1
 ```
 
 * **插入元素**：即`Enqueue`。先判断队列是否**已满**，如果已满抛出异常。如果没满，`self.rear`向右移动一位，再进行赋值操作，此时`self.rear`指向队尾元素。
-```
+```Python
     # add one element to the queue
     def enqueue(self, val):
         if self.isFull():
@@ -90,7 +90,7 @@ class queue:
 ```
 
 * **删除元素**：即`Dequeue`。先判断队列是否**为空**，如果为空抛出异常。如果不为空，`self.front`指向位置赋值为`None`，并将`self.front`向右移动一位，此时`self.front`指向队头元素。
-```
+```Python
     # delete one element from the queue
     def dequeue(self):
         if self.isEmpty():
@@ -103,7 +103,7 @@ class queue:
 
 * **获取队头元素**：先判断队列是否**为空**，如果为空抛出异常。如果不为空，因为队头指针`self.front`指向队头元素的前一个位置，所以返回`self.front + 1`位置的元素，即`self.queue[self.front + 1]`。
 
-```
+```Python
     # get the front element of the queue
     def front_val(self):
         if self.isEmpty():
@@ -114,7 +114,7 @@ class queue:
 
 * **获取队尾元素**：先判断队列是否**为空**，如果为空抛出异常。如果不为空，因为队尾指针`self.rear`指向队尾元素，返回`self.queue[self.rear]`。
 
-```
+```Python
     # get the rear element of the queue
     def rear_val(self):
         if self.isEmpty():
@@ -132,7 +132,7 @@ class queue:
 **解决办法**：
 1. 每一次出队操作删除**队头元素**后，把整个队列**向前**移动一个位置。
 
-```
+```Python
     # delete one element from the queue
     def dequeue(self):
         if self.isEmpty():
@@ -176,7 +176,7 @@ class queue:
 
 * **初始化空队列**：创建一个空队列`self.queue`，定义大小为`self.size + 1`，定义队头元素指针`self.front`和队尾元素指针为`self.rear`都指向`0`。
 
-```
+```Python
 class queue:
     # initilize an empty queue
     def __init__(self, size==100):
@@ -188,7 +188,7 @@ class queue:
 
 * **判断队列是否为空**：根据**方式3**，如果队头元素指针`self.front`和队尾元素指针`self.rear`相等，则说明队列为空，否则不为空。
 
-``` 
+``` Python
     # check if the queue is empty
     def isEmpty(self):
         return self.front == self.rear
@@ -196,14 +196,14 @@ class queue:
 
 * **判断队列是否为满**：根据**方式3**，队头指针在队尾指针的下一个位置即`(self.rear + 1) % self.size = self.front`，说明队列已满，否则不满。
 
-```
+```Python
     # check if the queue is full
     def isFull(self):
         return (self.rear + 1) % self.size == self.front
 ```
 
 * **插入元素（入队）**：即`Enqueue`。先判断队列是否**已满**，如果已满抛出异常。如果没满，`self.rear`向右**循环**移动一位，再进行赋值操作，此时`self.rear`指向队尾元素。
-```
+```Python
     # add one element to the queue
     def enqueue(self, val):
         if self.isFull():
@@ -214,7 +214,7 @@ class queue:
 ```
 
 * **删除元素（出队）**：即`Dequeue`。先判断队列是否**为空**，如果为空抛出异常。如果不为空，`self.front`指向位置赋值为`None`，并将`self.front`向右**循环**移动一位，此时`self.front`指向队头元素。
-```
+```Python
     # delete one element from the queue
     def dequeue(self):
         if self.isEmpty():
@@ -227,7 +227,7 @@ class queue:
 
 * **获取队头元素**：先判断队列是否**为空**，如果为空抛出异常。如果不为空，因为队头指针`self.front`指向队头元素的前一个位置，所以队头元素在队头指针的后一个**循环**位置上，即返回`(self.front + 1) % self.size`位置。
 
-```
+```Python
     # get the front element of the queue
     def front_val(self):
         if self.isEmpty():
@@ -238,7 +238,7 @@ class queue:
 
 * **获取队尾元素**：先判断队列是否**为空**，如果为空抛出异常。如果不为空，因为队尾指针`self.rear`指向队尾元素，返回`self.queue[self.rear]`。
 
-```
+```Python
     # get the rear element of the queue
     def rear_val(self):
         if self.isEmpty():
@@ -256,7 +256,7 @@ class queue:
 具体实现：
 * **链式节点**：构造链式节点`Node`类。
 
-```
+```Python
 #  helper Node class
 Class Node:
     def __init__(self, val):
@@ -265,7 +265,7 @@ Class Node:
 ```
 * **初始化空队列**：建立一个链表头节点`self.head`，定义队头元素指针`self.front`和队尾元素指针`self.rear`都指向头节点，即`self.front = self.front = self.head`。
 
-```
+```Python
 class queue:
     # initilize an empty queue
     def __init__(self):
@@ -277,7 +277,7 @@ class queue:
 
 * **判断队列是否为空**：如果队头元素指针`self.front`和队尾元素指针`self.rear`相等，则说明队列为空，否则不为空。
 
-``` 
+``` Python
     # check if the queue is empty
     def isEmpty(self):
         return self.front == self.rear
@@ -285,7 +285,7 @@ class queue:
 
 * **插入元素（入队）**：即`Enqueue`。创建值为`val`的链表节点，插入到链表末尾，并使队尾指针`self.rear`向后移动`1`位，此时队尾指针`self.rear`指向队尾元素。
 
-```
+```Python
     # add one element to the queue
     def enqueue(self, val):
         node = Node(val)
@@ -295,7 +295,7 @@ class queue:
 ```
 
 * **删除元素（出队）**：即`Dequeue`。先判断队列是否**为空**，如果为空抛出异常。如果不为空，获取`self.front`下一个节点的值，然后将`self.front`沿链表向后移动一位。如果`self.front`下一个位置等于`self.rear`，说明队列为空，将`self.rear`赋值为`self.front`。返回删除节点的值。
-```
+```Python
     # delete one element from the queue
     def dequeue(self):
         if self.isEmpty():
@@ -312,7 +312,7 @@ class queue:
 
 * **获取队头元素**：先判断队列是否**为空**，如果为空抛出异常。如果不为空，因为队头指针`self.front`指向队头元素的前一个位置，所以队头元素在队头指针的后一个位置上，即返回`self.front.next.val`。
 
-```
+```Python
     # get the front element of the queue
     def front_val(self):
         if self.isEmpty():
@@ -323,7 +323,7 @@ class queue:
 
 * **获取队尾元素**：先判断队列是否**为空**，如果为空抛出异常。如果不为空，因为队尾指针`self.rear`指向队尾元素，返回`self.rear.val`。
 
-```
+```Python
     # get the rear element of the queue
     def rear_val(self):
         if self.isEmpty():
