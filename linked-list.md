@@ -306,4 +306,5 @@ def insertAtIndex(self, index):
 | 0019| [删除链表倒数第N个节点 Remove Nth Node From End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/description/) | 链表 | 中等
 | 0024| [两两交换链表的节点 Swap Nodes in Pairs](https://leetcode.com/problems/swap-nodes-in-pairs/) | 链表 | 中等
 | 0082| [删除排序链表中的重复元素II Remove Duplicates from Sorted List II](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/description/) | 链表，链表双指针 | 中等
+| 0142| [环形链表II Linked List Cycle II](https://leetcode.com/problems/linked-list-cycle-ii/) | 链表 | 中等 
 | 0707| [设计链表 Design Linked List](https://leetcode.com/problems/design-linked-list/description/) | 链表 | 中等
