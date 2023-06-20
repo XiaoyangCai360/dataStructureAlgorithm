@@ -48,9 +48,14 @@
 | 0160| [链表相交 Intersection of Two Linked Lists](/leetcode/0160_%E9%93%BE%E8%A1%A8%E7%9B%B8%E4%BA%A4.md) | 链表 | 简单 | 2023.6.18
 | 0142| [环形链表II Linked List Cycle II](/leetcode/0142_%E7%8E%AF%E5%BD%A2%E9%93%BE%E8%A1%A8II.md) | 链表 | 中等 | 2023.6.19
 
-## 4. 堆栈 Stack
+## 4. 哈希表 Hash Table
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0242 | [有效的字母异位词 Valid Anagram](/leetcode/0242_%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) | 哈希表 | 简单 | 2023.6.20
 
-### 4.1 堆栈基础相关题目
+## 5. 堆栈 Stack
+
+### 5.1 堆栈基础相关题目
 | 题号 | 标题 | 标签 | 难度 | 日期
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0020| [有效的括号 Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 堆栈 | 简单 | 2023.5.16
@@ -58,9 +63,9 @@
 | 1047| [删除字符串中的所有相邻重复项 Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)| 堆栈 | 简单 | 2023.5.21
 | 0232| [用栈实现队列 Implement Queue using Stacks](/leetcode/0232_%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) | 队列、堆栈 | 简单 | 2023.6.3
 
-## 5. 队列 Queue
+## 6. 队列 Queue
 
-### 5.1 队列基础相关题目
+### 6.1 队列基础相关题目
 | 题号 | 标题 | 标签 | 难度 | 日期 | 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0225| [用队列实现栈 Implement Stack using Queues](/leetcode/0225_%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md) | 队列、堆栈 | 简单 | 2023.6.3 
