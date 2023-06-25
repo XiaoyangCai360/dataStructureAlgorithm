@@ -37,4 +37,5 @@
 ## 4. 哈希表相关题目
 | 题号 | 标题 | 标签 | 难度 |
 | ----------- | ----------- | ----------- | ----------- |
+| 0202 | [快乐数 Happy Number](https://leetcode.com/problems/happy-number/description/) | 哈希表 | 简单 |
 | 0242| [有效的字母异位词 Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 哈希表 | 简单
