@@ -54,6 +54,7 @@
 | 0242 | [有效的字母异位词 Valid Anagram](/leetcode/0242_%E6%9C%89%E6%95%88%E7%9A%84%E5%AD%97%E6%AF%8D%E5%BC%82%E4%BD%8D%E8%AF%8D.md) | 哈希表 | 简单 | 2023.6.20
 | 0202 | [快乐数 Happy Number](/leetcode/0202_%E5%BF%AB%E4%B9%90%E6%95%B0.md) | 哈希表 | 简单 | 2023.6.25
 | 0001 | [两数之和 Two Sum](/leetcode/0001_%E4%B8%A4%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 哈希表 | 简单 | 2023.6.25
+| 0454 | [四数相加II 4Sum II](/leetcode/0454_%E5%9B%9B%E6%95%B0%E7%9B%B8%E5%8A%A0II.md) | 哈希表 | 中等 | 2023.6.26
 
 ## 5. 堆栈 Stack
 
