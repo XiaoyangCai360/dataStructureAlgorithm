@@ -42,4 +42,5 @@
 | 0242| [有效的字母异位词 Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 哈希表 | 简单
 | 0383 | [赎金信 Ransom Note](https://leetcode.com/problems/ransom-note/description/) | 哈希表 | 简单
 | 0015 | [三数之和 3Sum](https://leetcode.com/problems/3sum/description/) | 哈希表 | 中等 
+| 0018 | [四数之和 4Sum](https://leetcode.com/problems/4sum/description/) | 哈希表 | 中等
 | 0454 | [四数相加II 4Sum II](https://leetcode.com/problems/4sum-ii/description/) | 哈希表 | 中等
