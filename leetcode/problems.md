@@ -59,10 +59,15 @@
 | 0015 | [三数之和 3Sum](/leetcode/0015_%E4%B8%89%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 哈希表 | 中等 | 2023.6.27
 | 0018 | [四数之和 4Sum](/leetcode/0018_%E5%9B%9B%E6%95%B0%E4%B9%8B%E5%92%8C.md) | 哈希表 | 中等 | 2023.6.28
 
+## 5. 字符串 String
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0344 | [反转字符串 Reverse String](/leetcode/0344_%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) | 字符串 | 简单 | 2023.6.29
 
-## 5. 堆栈 Stack
 
-### 5.1 堆栈基础相关题目
+## 6. 堆栈 Stack
+
+### 6.1 堆栈基础相关题目
 | 题号 | 标题 | 标签 | 难度 | 日期
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0020| [有效的括号 Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 堆栈 | 简单 | 2023.5.16
@@ -70,9 +75,9 @@
 | 1047| [删除字符串中的所有相邻重复项 Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)| 堆栈 | 简单 | 2023.5.21
 | 0232| [用栈实现队列 Implement Queue using Stacks](/leetcode/0232_%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) | 队列、堆栈 | 简单 | 2023.6.3
 
-## 6. 队列 Queue
+## 7. 队列 Queue
 
-### 6.1 队列基础相关题目
+### 7.1 队列基础相关题目
 | 题号 | 标题 | 标签 | 难度 | 日期 | 
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0225| [用队列实现栈 Implement Stack using Queues](/leetcode/0225_%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md) | 队列、堆栈 | 简单 | 2023.6.3 
