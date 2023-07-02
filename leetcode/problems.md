@@ -14,10 +14,10 @@
 | 1822 | [数组元素积的符号 Sign of the Product of an Array](https://leetcode.com/problems/sign-of-the-product-of-an-array/description/)| 数组 | 简单 | 2023.5.22
 | 2215 | [找出两数组的不同 Find the Difference of Two arrays](https://leetcode.com/problems/find-the-difference-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
 | 0349 | [两个数组的交集 Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/description/)| 数组 | 简单 | 2023.5.22
-| 0027 | [移除元素 Remove Element](/leetcode/0027_%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.md) | 数组 | 简单 | 2023.6.6
-| 0977 | [有序数组的平方 Squares of a Sorted Array](/leetcode/0977_%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.md) | 数组 | 简单 | 2023.6.6
-| 0209 | [长度最小的子数组 Minimum Size Subarray Sum](/leetcode/0209_%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) | 数组 | 中等 | 2023.6.8
-| 0059 | [螺旋数组II Spiral Matrix II](/leetcode/0059_%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5II.md) | 数组 | 中等 | 2023.6.12
+| 0027 | [移除元素 Remove Element](/leetcode/0027_%E7%A7%BB%E9%99%A4%E5%85%83%E7%B4%A0.md) | 数组 | 简单 | 2023.6.6, 2023.6.28
+| 0977 | [有序数组的平方 Squares of a Sorted Array](/leetcode/0977_%E6%9C%89%E5%BA%8F%E6%95%B0%E7%BB%84%E7%9A%84%E5%B9%B3%E6%96%B9.md) | 数组 | 简单 | 2023.6.6, 2023.6.29
+| 0209 | [长度最小的子数组 Minimum Size Subarray Sum](/leetcode/0209_%E9%95%BF%E5%BA%A6%E6%9C%80%E5%B0%8F%E7%9A%84%E5%AD%90%E6%95%B0%E7%BB%84.md) | 数组 | 中等 | 2023.6.8, 2023.6.29
+| 0059 | [螺旋数组II Spiral Matrix II](/leetcode/0059_%E8%9E%BA%E6%97%8B%E7%9F%A9%E9%98%B5II.md) | 数组 | 中等 | 2023.6.12, 2023.6.29
 | 0238 | [除自身以外数组的乘积 Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)| 数组 | 中等 |
 
 
@@ -28,7 +28,7 @@
 
 | 题号 | 标题 | 标签 | 难度 | 日期 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
-| 0704 | [二分查找 Binary Search](/leetcode/0704_%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.md) | 二分查找 | 简单 | 2023.5.7
+| 0704 | [二分查找 Binary Search](/leetcode/0704_%E4%BA%8C%E5%88%86%E6%9F%A5%E6%89%BE.md) | 二分查找 | 简单 | 2023.5.7, 2023.6.28
 | 0374 | [猜数字大小 Guess Number Higher or Lower](https://leetcode.com/problems/guess-number-higher-or-lower/) | 二分查找 | 简单 | 2023.5.7
 | 0367 | [有效的完全平方数 Valid Perfect Squares](https://leetcode.com/problems/valid-perfect-square/) | 二分查找 | 简单 | 2023.5.7
 | 0033 | [搜索旋转排序数列 Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)| 二分查找 | 中等 |
