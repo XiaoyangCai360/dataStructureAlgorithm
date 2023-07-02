@@ -64,8 +64,9 @@
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0344 | [反转字符串 Reverse String](/leetcode/0344_%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2.md) | 字符串 | 简单 | 2023.6.29
 | 0541 | [反转字符串 Reverse String II](/leetcode/0541_%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2II.md) | 字符串 | 简单 | 2023.6.29
-| 剑指offer05 | [替换空格](/leetcode/%E5%89%91%E6%8C%87offer05_%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md) | 字符串 | 简单 | 2023.6.30
+| 剑指offer05 | [替换空格 Replace Space](/leetcode/%E5%89%91%E6%8C%87offer05_%E6%9B%BF%E6%8D%A2%E7%A9%BA%E6%A0%BC.md) | 字符串 | 简单 | 2023.6.30
 | 0151 | [反转字符串中的单词 Reverse Word in a String](/leetcode/0151_%E5%8F%8D%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2%E9%87%8C%E7%9A%84%E5%8D%95%E8%AF%8D.md) | 字符串 | 中等 | 2023.6.30
+| 剑指offer58 | [左旋转字符串II Reverse Left Words in a String](/leetcode/%E5%89%91%E6%8C%87offer58_%E5%B7%A6%E6%97%8B%E8%BD%AC%E5%AD%97%E7%AC%A6%E4%B8%B2II.md) | 字符串 | 简单 | 2023.7.2
 
 
 ## 6. 堆栈 Stack

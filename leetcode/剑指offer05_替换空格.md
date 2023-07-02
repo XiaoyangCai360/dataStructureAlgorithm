@@ -1,4 +1,4 @@
-# 剑指offer05. 替换空格
+# 剑指offer05. 替换空格 Replace Space
 [Leetcode 题目链接](https://leetcode.cn/problems/ti-huan-kong-ge-lcof/description/)
 
 ## 1. 题目描述
