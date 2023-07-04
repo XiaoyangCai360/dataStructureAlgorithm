@@ -40,6 +40,7 @@
 | 0001 | [两数之和 Two Sum](https://leetcode.com/problems/two-sum/) | 哈希表 | 简单 |
 | 0202 | [快乐数 Happy Number](https://leetcode.com/problems/happy-number/description/) | 哈希表 | 简单 |
 | 0242| [有效的字母异位词 Valid Anagram](https://leetcode.com/problems/valid-anagram/) | 哈希表 | 简单
+| 0349 | [两个数组的交集 Intersection of Two Arrays](https://leetcode.com/problems/intersection-of-two-arrays/) | 哈希表 | 简单
 | 0383 | [赎金信 Ransom Note](https://leetcode.com/problems/ransom-note/description/) | 哈希表 | 简单
 | 0015 | [三数之和 3Sum](https://leetcode.com/problems/3sum/description/) | 哈希表 | 中等 
 | 0018 | [四数之和 4Sum](https://leetcode.com/problems/4sum/description/) | 哈希表 | 中等
