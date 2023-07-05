@@ -79,7 +79,7 @@
 | 0020| [有效的括号 Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 堆栈 | 简单 | 2023.5.16
 | 0227| [基本计算器II Basic Calculator II](https://leetcode.com/problems/basic-calculator-ii/) | 堆栈 | 中等 | 2023.5.16
 | 1047| [删除字符串中的所有相邻重复项 Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)| 堆栈 | 简单 | 2023.5.21
-| 0232| [用栈实现队列 Implement Queue using Stacks](/leetcode/0232_%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) | 队列、堆栈 | 简单 | 2023.6.3
+| 0232| [用栈实现队列 Implement Queue using Stacks](/leetcode/0232_%E7%94%A8%E6%A0%88%E5%AE%9E%E7%8E%B0%E9%98%9F%E5%88%97.md) | 队列、堆栈 | 简单 | 2023.6.3, 2023.7.6
 
 ## 7. 队列 Queue
 
