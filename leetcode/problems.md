@@ -80,3 +80,4 @@
 | 0225| [用队列实现栈 Implement Stack using Queues](/leetcode/0225_%E7%94%A8%E9%98%9F%E5%88%97%E5%AE%9E%E7%8E%B0%E6%A0%88.md) | 队列、堆栈 | 简单 | 2023.6.3，2023.7.6
 | 0020| [有效的括号 Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 堆栈 | 简单 | 2023.5.16，2023.7.10
 | 1047| [删除字符串中的所有相邻重复项 Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)| 堆栈 | 简单 | 2023.5.21，2023.7.10
+| 0150| [逆波兰表达式求值 Evaluate Reverse Polish Notation](/leetcode/0150_%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.md)| 堆栈 | 中等 | 2023.7.10
