@@ -57,7 +57,7 @@
 ```
 
 完整代码：
-Python - 前序遍历
+##### 1.1.1.1 Python - 前序遍历的递归实现
 ```Py
 # 前序遍历-递归-LC144_二叉树的前序遍历
 # Definition for a binary tree node.
@@ -69,6 +69,7 @@ Python - 前序遍历
 
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
+        # 前序遍历的递归实现
         res = List()
 
         def preorder(cur: TreeNode, vec: List[int]) -> None:
@@ -81,4 +82,141 @@ class Solution:
 
         preorder(root, res)
         return res
+```
+
+##### 1.1.1.2 Java - 前序遍历的递归实现
+
+```Java
+// 前序遍历-递归-LC144_二叉树的前序遍历
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        // 前序遍历的递归实现
+        List<Integer> result = new LinkedList<>();
+        preorder(root, result);
+        return result;
+    }
+
+    public void preorder(TreeNode cur, List<Integer> temp) {
+        // 终止条件
+        if (cur == null) {
+            return;
+        }
+
+        temp.add(cur.val); // 中  
+        preorder(cur.left, temp); // 左
+        preorder(cur.right, temp); // 右
+    }
+}
+```
+
+#### 1.1.2 前序遍历的迭代实现
+迭代实现的基本思路：
+* 使用**递归**就是每一次递归调用都把函数的局部变量、参数、返回值压入栈中，然后等递归返回的时候，从栈顶弹出上一层的各项参数，返回上一层。
+* 所以迭代实现递归算法时需要用**栈**。
+
+前序遍历的迭代实现：每次遍历时，处理完中间节点后，先把 **右节点** 压入栈中，然后再把 **左节点** 压入栈中，这样出栈的时候是 **中左右** 的顺序。
+注意：中节点**不**入栈
+
+##### 1.1.2.1 Python - 前序遍历的迭代实现
+```Py
+# 前序遍历-递归-LC144_二叉树的前序遍历
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+class Solution:
+    def preorderTraversal(self, root: TreeNode) -> List[int]:
+        # 前序遍历的迭代实现
+        
+        # 返回数组 
+        res = []
+
+        # 空树
+        if not root: 
+            return res
+        
+        # list as stack
+        # root只在第一次入栈，之后迭代过程中，root不入栈
+        stack = [root]
+        
+        # 终止条件为stack为空，说明遍历完树
+        while stack: # 相当于 len(stack) != 0
+            node = stack.pop()          # 弹出根节点
+            res.append(node.val)        # 访问根节点
+
+            if node.right:
+                stack.append(node.right) # 右子树先入栈
+            if node.left:
+                stack.append(node.left)  # 左子树后入栈
+
+        return res 
+```
+
+##### 1.1.2.2 Java - 前序遍历的迭代实现
+```Java
+// 前序遍历-递归-LC144_二叉树的前序遍历
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<Integer> preorderTraversal(TreeNode root) {
+        // 前序遍历的迭代实现
+        List<Integer> result = new LinkedList<>();
+
+        // 空树 
+        if (root == null) {
+            return result;
+        }
+
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        stack.push(root);
+
+        while (!stack.isEmpty()) {
+            TreeNode node = stack.pop();
+            result.add(node.val);
+
+            // 先右入栈
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+
+            // 后左入栈
+            if (node.left != null) {
+                stack.push(node.left);
+            }
+        }
+
+        return result;
+    }
+}
 ```
