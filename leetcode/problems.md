@@ -81,3 +81,10 @@
 | 0020| [有效的括号 Valid Parentheses](https://leetcode.com/problems/valid-parentheses/) | 堆栈 | 简单 | 2023.5.16，2023.7.10
 | 1047| [删除字符串中的所有相邻重复项 Remove All Adjacent Duplicates In String](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/description/)| 堆栈 | 简单 | 2023.5.21，2023.7.10
 | 0150| [逆波兰表达式求值 Evaluate Reverse Polish Notation](/leetcode/0150_%E9%80%86%E6%B3%A2%E5%85%B0%E8%A1%A8%E8%BE%BE%E5%BC%8F%E6%B1%82%E5%80%BC.md)| 堆栈 | 中等 | 2023.7.10
+
+## 7. 二叉树 Binary Tree
+
+### 7.1 二叉树遍历
+| 题号 | 标题 | 标签 | 难度 | 日期
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0144| [二叉树前序遍历 Binary Tree Preorder Traversal](/leetcode/0144_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md)| 二叉树、二叉树遍历 | 简单 | 2023.7.12
