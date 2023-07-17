@@ -134,6 +134,15 @@ class Solution {
 
 注意：中节点**不**入栈
 
+具体算法：
+* 判断二叉树是否为空，如果为空返回
+* 初始化返回数组`res`
+* 初始化空栈`stack`，把根节点`root`压入栈中
+* 当栈`stack`不为空时：
+  * 栈弹出当前栈顶元素`node`，并处理该元素，即`res`记录该节点的值
+  * 如果`node`右节点不为空，访问右节点并入栈
+  * 然后（注意顺序），如果`node`左节点不为空，访问左节点并入栈
+
 ##### 1.1.2.1 Python - 前序遍历的迭代实现
 ```Py
 # 前序遍历-递归-LC144_二叉树的前序遍历
@@ -520,3 +529,107 @@ class Solution {
 ```
 
 #### 1.3.2 后序遍历的迭代实现
+* 后续遍历的迭代实现基本思路与前序遍历一致
+* 后续遍历的顺序是**左右中**，前序遍历的顺序是**中左右**，具体更改如下：
+  * 在原本前序遍历的基础上，先修改访问和处理节点的顺序，更改为**左子树**入栈，再**右子树**入栈，此时访问的顺序（即出栈的顺序）变为 **中右左**
+  * 最后返回数组`res`时，反转数组，顺序变为 **左右中**
+
+具体算法：
+* 判断二叉树是否为空，如果为空返回
+* 初始化返回数组`res`
+* 初始化空栈`stack`，把根节点`root`压入栈中
+* 当栈`stack`不为空时：
+  * 处理栈顶元素，栈弹出当前栈顶元素`node`，`res`记录该节点的值
+  * 如果`node`左节点不为空，访问左节点并入栈
+  * 然后（注意顺序），如果`node`右节点不为空，访问右节点并入栈
+* 此时返回数组`res`的顺序为**中右左**，最后反转返回数组`res`，顺序为**左右中**
+
+##### 1.3.2.1 Python - 后序遍历的迭代实现
+```Py
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def postorderTraversal(self, root: Optional[TreeNode]) -> List[int]:
+        res = list()
+
+        # 空树
+        if not root:
+            return res
+        
+        # list as stack
+        stack = [root]
+
+        while stack: # 出栈顺序：中右左
+            # 中
+            node = stack.pop()
+            res.append(node.val)
+
+            # 左
+            if node.left:
+                stack.append(node.left)
+
+            # 右
+            if node.right:
+                stack.append(node.right)
+        
+        # 反转res：左右中
+        return res[::-1]
+```
+
+##### 1.3.2.2 Java - 后序遍历的迭代实现
+```Java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+
+        // 空树
+        if (root == null) {
+            return res;
+        }
+
+        // deque as stack
+        Deque<TreeNode> stack = new ArrayDeque<>();
+        stack.push(root);
+
+        // 出栈顺序：中右左
+        while (!stack.isEmpty()) {
+            // 中
+            TreeNode node = stack.pop();
+            res.add(node.val);
+
+            // 左
+            if (node.left != null) {
+                stack.push(node.left);
+            } 
+            
+            // 右
+            if (node.right != null) {
+                stack.push(node.right);
+            }
+        }
+
+        // 反转res：左右中
+        Collections.reverse(res);
+        return res;
+    }
+}
+```
