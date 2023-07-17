@@ -125,11 +125,13 @@ class Solution {
 ```
 
 #### 1.1.2 前序遍历的迭代实现
-迭代实现的基本思路：
-* 使用**递归**就是每一次递归调用都把函数的局部变量、参数、返回值压入栈中，然后等递归返回的时候，从栈顶弹出上一层的各项参数，返回上一层。
-* 所以迭代实现递归算法时需要用**栈**。
+> 迭代实现的基本思路：
+> * 使用**递归**就是每一次递归调用都把函数的局部变量、参数、返回值压入栈中，然后等递归返回的时候，从栈顶弹出上一层的各项参数，返回上一层。
+> * 所以迭代实现递归算法时需要用**栈**。
 
-前序遍历的迭代实现：每次遍历时，处理完中间节点后，先把 **右节点** 压入栈中，然后再把 **左节点** 压入栈中，这样出栈的时候是 **中左右** 的顺序。
+前序遍历的迭代实现：
+每次遍历时，处理完中间节点后，先把 **右节点** 压入栈中，然后再把 **左节点** 压入栈中，这样出栈的时候是 **中左右** 的顺序。
+
 注意：中节点**不**入栈
 
 ##### 1.1.2.1 Python - 前序遍历的迭代实现
@@ -316,6 +318,110 @@ class Solution {
     }
 }
 ```
+#### 1.2.2 中序遍历的迭代实现
+* 中序遍历的迭代实现思路与前序遍历不同
+* 前序遍历迭代中一共有两个步骤：
+  * 访问：从根节点`root`开始，不断向下遍历，将遍历到的元素放入栈`stack`中
+  * 处理：栈`stack`中弹出栈顶节点，记录栈顶节点的值
+* 前序遍历的顺序是**中左右**，访问的节点和处理的节点是同一个节点
+* 中序遍历的顺序是**左中右**，从根节点`root`开始，一层层往下遍历直到树的最底部，然后才开始处理节点；所以在中序遍历中，需要保证在左子树访问完之前，当前的元素**不能**出栈
+
+
+具体算法：
+* 判断二叉树是否为空，如果为空返回
+* 初始化空栈`stack`，初始化返回数组`res`
+* 当前节点或栈不为空时：
+  * 如果当前节点不为空，循环遍历当前节点的**左子树**，并将当前子树的根节点加入栈中
+  * 如果当前节点为空，说明已经遍历到子树的左边最底部，栈`stack`弹出栈顶元素`node`，并记录该元素的值；然后将访问当前栈顶元素的右子树
+* 注意循环条件为当前节点`cur`不为空或者栈`stack`不为空，即`while cur or stack`
+  * 如果当前节点`cur`不为空，但是栈`stack`为空，说明当前节点`cur`是一个当前子树的根节点，还需要继续向下**访问**（继续向下遍历）
+  * 如果当前节点`cur`为空，但是栈`stack`不为空，说明已经遍历到当前子树的最底层，需要开始**处理**节点（即栈弹出栈顶元素并记录）
+  * 只有当前节点`cur`为空和栈`stack`也为空时，说明整棵树都遍历到，遍历结束
+
+##### 1.2.2.1 Python - 中序遍历的迭代实现
+```Py
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        res = list()
+
+        # 空树
+        if not root:
+            return res
+
+        # list as stack
+        stack = list()
+
+        cur = root
+        while cur or stack:
+            if cur:
+                # 从根节点依次向下访问
+                stack.append(cur)
+                cur = cur.left
+            else:
+                # not cur: 说明遍历到子树的最左节点
+                # 处理当前节点并访问当前节点的右子树
+                cur = stack.pop()
+                res.append(cur.val)
+                cur = cur.right
+        
+        return res
+```
+
+##### 1.2.2.2 Java - 中序遍历的迭代实现
+```Java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+
+        // 空树
+        if (root == null) {
+            return res;
+        }
+
+        // deque as stack
+        Deque<TreeNode> stack = new ArrayDeque<>();
+
+        TreeNode cur = root;
+        
+        // 当前节点不为空或栈不为空 
+        while (cur != null || !stack.isEmpty()) {
+            if (cur != null) {
+                // 继续向下访问
+                stack.push(cur);
+                cur = cur.left;
+            } else {
+                // 处理栈顶节点，并访问栈顶节点右子树
+                cur = stack.pop();
+                res.add(cur.val);
+                cur = cur.right;
+            }
+        }
+
+        return res;
+    }
+}
+```
 
 ### [1.3 后序遍历 Postorder Traversal](/leetcode/0145_二叉树的后序遍历.md)
 后序遍历规则：
@@ -412,3 +518,5 @@ class Solution {
     }
 }
 ```
+
+#### 1.3.2 后序遍历的迭代实现
