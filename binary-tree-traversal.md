@@ -22,7 +22,7 @@
 中序遍历：`1 4 2 5 7 6 8`
 后序遍历：`1 2 4 7 8 6 5`
 
-### 1.1 前序遍历 Preorder Traversal
+### [1.1 前序遍历 Preorder Traversal](/leetcode/0144_二叉树的前序遍历.md)
 前续遍历规则：
 * 如果树为空，则返回
 * 如果树不为空，则：
@@ -70,7 +70,7 @@
 class Solution:
     def preorderTraversal(self, root: TreeNode) -> List[int]:
         # 前序遍历的递归实现
-        res = List()
+        res = list()
 
         def preorder(cur: TreeNode, vec: List[int]) -> None:
             # 终止条件
@@ -221,7 +221,7 @@ class Solution {
 }
 ```
 
-### 1.2 中序遍历 Inorder Traversal
+### [1.2 中序遍历 Inorder Traversal](/leetcode/0094_二叉树的中序遍历.md)
 中续遍历规则：
 * 如果树为空，则返回
 * 如果树不为空，则：
@@ -237,17 +237,178 @@ class Solution {
 中序遍历的递归实现：
 * 确定递归的 **参数和返回值**: 需要传入的参数为当前节点，因为要打印出中序遍历节点的值，所以参数需要一个**数组**来存放前序遍历节点的值，不需要返回值
 ```Py
-# LC144-二叉树的前序遍历 
-    def preorder(cur: Optional[TreeNode], res: List[int]) -> None:
+# LC094-二叉树的中序遍历 
+    def inorder(cur: Optional[TreeNode], res: List[int]) -> None:
 ```
 
 * 确定递归的 **终止条件**：遍历过程中，如果当前节点为空，说明本层遍历结束，所以终止条件为当前节点为空就返回
 ```Py
         if cur == None: return
 ```
-* 确定 **单层递归的逻辑**：前序遍历顺序为中左右，所以单层递归时，要先取中节点的值，然后左，然后右
+* 确定 **单层递归的逻辑**：中序遍历顺序为左中右，所以单层递归时，要先取根节点的左子树的值，然后根节点，最后右子树
 ```Py
+        inorderTraversal(cur.left, res) # 左
         res.append(cur.val) # 中
-        preorderTraversal(cur.left, res) # 左
-        preorderTraversal(cur.right, res) # 右
+        inorderTraversal(cur.right, res) # 右
+```
+
+完整代码：
+##### 1.2.1.1 Python - 中序遍历的递归实现
+```Py
+# 中序遍历-递归-LC094_二叉树的中序遍历
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+class Solution:
+    def inorderTraversal(self, root: TreeNode) -> List[int]:
+        # 前序遍历的递归实现
+        res = list()
+
+        def inorder(cur: TreeNode, vec: List[int]) -> None:
+            # 终止条件
+            if not cur: return
+
+            inorder(cur.left, vec) # 左
+            vec.append(cur.val) # 中
+            inorder(cur.right, vec) # 右
+
+        inorder(root, res)
+        return res
+```
+
+##### 1.2.1.2 Java - 中序遍历的递归实现
+```Java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<Integer> inorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        inorder(root, res);
+        return res;
+    }
+
+    public void inorder(TreeNode cur, List<Integer> temp) {
+        // 终止条件
+        if (cur == null) {
+            return;
+        }
+
+        inorder(cur.left, temp);    // 左
+        temp.add(cur.val);          // 中 
+        inorder(cur.right, temp);   // 右
+    }
+}
+```
+
+### [1.3 后序遍历 Postorder Traversal](/leetcode/0145_二叉树的后序遍历.md)
+后序遍历规则：
+* 如果树为空，则返回
+* 如果树不为空，则：
+  * 按照后序遍历方式遍历根节点的**左子树**  
+  * 按照后序遍历方式遍历根节点的**右子树** 
+  * 访问**根节点**
+
+所以后序遍历顺序为：**左** -> **右** -> **中**
+
+#### 1.3.1 后序遍历的递归实现
+后序遍历递归的基本思路与前序遍历递归、中序遍历递归一致。
+
+后序遍历的递归实现：
+* 确定递归的 **参数和返回值**: 需要传入的参数为当前节点，因为要打印出后序遍历节点的值，所以参数需要一个**数组**来存放前序遍历节点的值，不需要返回值
+```Py
+# LC145-二叉树的后序遍历 
+    def postorder(cur: Optional[TreeNode], res: List[int]) -> None:
+```
+
+* 确定递归的 **终止条件**：遍历过程中，如果当前节点为空，说明本层遍历结束，所以终止条件为当前节点为空就返回
+```Py
+        if cur == None: return
+```
+* 确定 **单层递归的逻辑**：后序遍历顺序为左右中，所以单层递归时，要先取根节点的左子树的值，然后右子树的值，最后根节点
+```Py
+        postorderTraversal(cur.left, res)   # 左
+        postorderTraversal(cur.right, res)  # 右
+        res.append(cur.val)                 # 中
+```
+
+完整代码：
+##### 1.3.1.1 Python - 后序遍历的递归实现
+```Py
+# 后序遍历-递归-LC145_二叉树的后序遍历
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+
+class Solution:
+    def postorderTraversal(self, root: TreeNode) -> List[int]:
+        # 后序遍历的递归实现
+        res = list()
+
+        def postorder(cur: TreeNode, vec: List[int]) -> None:
+            # 终止条件
+            if not cur: return
+
+            postorder(cur.left, vec)    # 左
+            postorder(cur.right, vec)   # 右
+            vec.append(cur.val)         # 中
+
+        postorder(root, res)
+        return res
+```
+
+##### 1.3.1.2 Java - 后序遍历的递归实现
+```Java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<Integer> postorderTraversal(TreeNode root) {
+        List<Integer> res = new ArrayList<>();
+        postorder(root, res);
+        return res;
+    }
+
+    public void postorder(TreeNode cur, List<Integer> temp) {
+        // 终止条件
+        if (cur == null) {
+            return;
+        }
+
+        postorder(cur.left, temp);    // 左
+        postorder(cur.right, temp);   // 右
+        temp.add(cur.val);            // 中 
+    }
+}
 ```
