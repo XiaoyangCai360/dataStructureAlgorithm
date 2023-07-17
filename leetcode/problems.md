@@ -88,3 +88,5 @@
 | 题号 | 标题 | 标签 | 难度 | 日期
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0144| [二叉树前序遍历 Binary Tree Preorder Traversal](/leetcode/0144_%E4%BA%8C%E5%8F%89%E6%A0%91%E7%9A%84%E5%89%8D%E5%BA%8F%E9%81%8D%E5%8E%86.md)| 二叉树、二叉树遍历 | 简单 | 2023.7.12
+| 0094| [二叉树中序遍历 Binary Tree Inorder Traversal](/leetcode/0094_二叉树的中序遍历.md)| 二叉树、二叉树遍历 | 简单 | 2023.7.17
+| 0145| [二叉树后序遍历 Binary Tree Postorder Traversal](/leetcode/0145_二叉树的后序遍历.md)| 二叉树、二叉树遍历 | 简单 | 2023.7.17
