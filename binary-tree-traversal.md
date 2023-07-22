@@ -633,3 +633,255 @@ class Solution {
     }
 }
 ```
+
+## 2 广度优先遍历 Breadth-first Search
+> 即二叉树的**层序遍历 Level Order**。
+
+二叉树的层序遍历规则为：
+从二叉树的根节点`root`出发，先遍历完二叉树第`1`层的节点，然后遍历二叉树第`2`层的节点，依次向下遍历直到所有节点都被访问完。
+
+例如：
+<center> 5 </center>
+<center>/&nbsp;\</center>
+<center>4&nbsp;&nbsp;6</center>
+<center>/&nbsp;\&nbsp;&nbsp;/&nbsp;\</center>
+<center>1&nbsp;&nbsp;2&nbsp;&nbsp;7&nbsp;&nbsp;8</center>
+
+层序遍历：`5 4 6 1 2 7 8`
+
+### 2.1 层序遍历的递归实现
+层序遍历的递归实现：
+* 确定递归的 **参数和返回值**: 需要传入的参数为当前节点，因为要打印出层序遍历节点的值，所以参数需要一个**数组**来存放层序遍历节点的值，注意层序遍历中返回的结果是一个数组，数组中的元素也是数组，每一个子数组中存放每一层的节点值，即`List[List[int]]`；遍历中需要记录当前节点所在层数`level`；不需要返回值
+```Py
+# LC102-二叉树的层序遍历 
+    def levelorder(cur: Optional[TreeNode], res: List[List[int]]，level：int) -> None:
+```
+
+* 确定递归的 **终止条件**：遍历过程中，如果当前节点为空，说明本层遍历结束，所以终止条件为当前节点为空就返回
+```Py
+        if cur == None: return
+```
+* 确定 **单层递归的逻辑**：层序遍历顺序为从上到下每一层从左到右遍历。单层递归中需要先判断当前节点是否是当前层的第一个，如果是需要在`res`中新增子数组；先访问当前根节点，然后访问左子树，再右子树，同时层数`level`加`1`
+```Py
+        # 判断每层开始节点
+        if level = len(res):
+            res.append([])
+
+        # 根节点
+        res[level].append(cur.val)
+
+        # 左
+        levelorder(cur, res, level + 1)
+        
+        # 右
+        levelorder(cur, res, level + 1)
+```
+
+完整代码：
+
+#### 2.1.1 Python - 层序遍历的递归实现
+```Py
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        res = []
+
+        def traversal(cur: Optional[TreeNode], levels: List[List[int]], level: int) -> None:
+            # 终止条件
+            if not cur:
+                return
+            
+            # 判断每层第一个
+            if len(levels) == level:
+                levels.append([])
+            
+            # 根
+            levels[level].append(cur.val)
+
+            # 左
+            traversal(cur.left, levels, level + 1)
+
+            # 右
+            traversal(cur.right, levels, level + 1)
+
+        traversal(root, res, 0)
+        return res
+```
+
+#### 2.1.2 Java - 层序遍历的递归实现
+* Java中注意`ArrayList`常用接口，例如得到长度用`ArrayList.size()`（相当于`list.length`）；访问下标为`i`的元素用`ArrayList.get(i)`（相当于`list[i]`）
+```Java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        List<List<Integer>> res = new ArrayList<>();
+        traversal(root, res, 0);
+        return res;
+    }
+
+    public void traversal(TreeNode cur, List<List<Integer>> levels, int level) {
+        // 终止条件
+        if (cur == null) {
+            return;
+        }
+
+        // 判断每层第一个
+        if (levels.size() == level) {
+            List<Integer> newLevel = new ArrayList<>();
+            levels.add(newLevel);
+        }
+
+        // 根
+        levels.get(level).add(cur.val);
+
+        // 左
+        traversal(cur.left, levels, level + 1);
+
+        // 右
+        traversal(cur.right, levels, level + 1);
+    }
+}
+```
+
+### 2.2 层序遍历的迭代实现
+层序遍历的迭代实现需要用到**队列**，因为队列先进先出（FIFO）符合层序遍历一层一层遍历的逻辑。
+
+具体算法：
+* 判断二叉树是否为空，为空直接返回
+* 定义记录遍历过节点值的数组`record`
+* 定义辅助层序遍历的队列`queue`，同时令根节点`root`入队
+* 当队列不为空时，做一下操作：
+  * 得到当前队列的长度`size`
+  * 定义单层节点的列表`levelitem`
+  * 开始单层循环，直到原队列长度`size`为`0`（可以用`for`循环，即` for i in range(size)`），做一下操作：
+    * 队列弹出队列头元素`node`，列表`levelitem`记录队头元素`node`的值
+    * 队头元素的左节点先入队，即`queue.push(node.left)`
+    * 队头元素的右节点后入队，即`queue.push(node.right)`
+  * 把该层节点的列表`levelitem`加入到返回结果数组`record`中
+* 返回数组`record`
+
+#### 2.2.1 Python - 层序遍历的迭代实现
+```Py
+# Definition for a binary tree node.
+# class TreeNode:
+#     def __init__(self, val=0, left=None, right=None):
+#         self.val = val
+#         self.left = left
+#         self.right = right
+class Solution:
+    def levelOrder(self, root: Optional[TreeNode]) -> List[List[int]]:
+        # 层序遍历迭代实现
+        # 空树
+        if not root:
+            return
+
+        # 返回列表
+        res = []
+        
+        # deque as queue
+        queue = deque()
+        queue.append(root)
+
+        # 终止条件：queue为空
+        while queue:
+            size = len(queue)
+            # 单层列表
+            levelitem = []
+
+            for i in range(size):
+                # 根
+                cur = queue.popleft()
+                levelitem.append(cur.val)
+                
+                # 左 
+                if cur.left:
+                    queue.append(cur.left)
+
+                # 右
+                if cur.right:
+                    queue.append(cur.right)
+            
+            res.append(levelitem)
+
+        return res
+```
+
+#### 2.2.2 Java - 层序遍历的迭代实现
+```Java
+/**
+ * Definition for a binary tree node.
+ * public class TreeNode {
+ *     int val;
+ *     TreeNode left;
+ *     TreeNode right;
+ *     TreeNode() {}
+ *     TreeNode(int val) { this.val = val; }
+ *     TreeNode(int val, TreeNode left, TreeNode right) {
+ *         this.val = val;
+ *         this.left = left;
+ *         this.right = right;
+ *     }
+ * }
+ */
+class Solution {
+    public List<List<Integer>> levelOrder(TreeNode root) {
+        // 层序遍历迭代实现
+        List<List<Integer>> res = new ArrayList<>();
+
+        // 空树
+        if (root == null) {
+            return res;
+        }
+        
+        // deque as queue
+        Deque<TreeNode> queue = new ArrayDeque<>();
+        queue.add(root);
+        
+        while (!queue.isEmpty()) {
+            int size = queue.size();
+            // 单层节点列表
+            List<Integer> levelitem = new ArrayList<>();
+
+            for(int i = 0; i < size; i++) {
+                // root
+                TreeNode cur = queue.remove();
+                levelitem.add(cur.val);
+
+                // left
+                if (cur.left != null) {
+                    queue.add(cur.left);
+                }
+
+                // right
+                if (cur.right != null) {
+                    queue.add(cur.right);
+                }
+            }
+
+            res.add(levelitem);
+        }
+
+        return res;
+    }
+}
+```
+
