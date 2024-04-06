@@ -27,3 +27,4 @@
 | 0114 | [二叉树展开为链表 Flatten Binary Tree to Linked List](/leetcode/0114_二叉树展开为链表.md) | 二叉树，递归 | 中等 | 2024.4.4
 | 0101 | [对称二叉树 Symmetric Binary Tree](/leetcode/0101_对称二叉树.md) | 二叉树，递归 | 简单 | 2024.4.4
 | 0111 | [二叉树的最小深度 Minimum Depth of Binary Tree](/leetcode/0111_二叉树的最小深度.md) | 二叉树，递归 | 简单 | 2024.4.5
+| 0654 | [最大二叉树 Maximum Binary Tree](/leetcode/0654_最大二叉树.md) | 二叉树，递归 | 简单 | 2024.4.5
