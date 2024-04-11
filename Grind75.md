@@ -35,3 +35,4 @@
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0105 | [从前序与中序遍历序列构造二叉树 Construct Binary Tree from Preorder and Inorder Traversal](/leetcode/0105_从前序与中序遍历序列构造二叉树.md) | 二叉树，递归 | 中等 | 2024.4.8
 | 0106 | [从中序与后序遍历序列构造二叉树 Construct Binary Tree from Inorder and Postorder Traversal](/leetcode/0106_从中序与后序遍历序列构造二叉树.md) | 二叉树，递归 | 中等 | 2024.4.8
+| 0889 | [根据前序与后序遍历构造二叉树 Construct Binary Tree from Preorder and Postorder Traversal](/leetcode/0889_根据前序与后序遍历构造二叉树.md) | 二叉树，递归 | 中等 | 2024.4.10
