@@ -30,11 +30,16 @@
 | 0654 | [最大二叉树 Maximum Binary Tree](/leetcode/0654_最大二叉树.md) | 二叉树，递归 | 简单 | 2024.4.5
 
 
-## 4. Week 4 (4.8-4.15)
+## 4. Week 4 (4.8-4.14)
 | 题号 | 标题 | 标签 | 难度 | 日期 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0105 | [从前序与中序遍历序列构造二叉树 Construct Binary Tree from Preorder and Inorder Traversal](/leetcode/0105_从前序与中序遍历序列构造二叉树.md) | 二叉树，递归 | 中等 | 2024.4.8
 | 0106 | [从中序与后序遍历序列构造二叉树 Construct Binary Tree from Inorder and Postorder Traversal](/leetcode/0106_从中序与后序遍历序列构造二叉树.md) | 二叉树，递归 | 中等 | 2024.4.8
 | 0889 | [根据前序与后序遍历构造二叉树 Construct Binary Tree from Preorder and Postorder Traversal](/leetcode/0889_根据前序与后序遍历构造二叉树.md) | 二叉树，递归 | 中等 | 2024.4.10
 | 0652 | [寻找重复的子树 Find Duplicate Subtrees]() | 二叉树，递归 | 中等 | 2024.4.11
-| 0129 | [求根节点到叶子节点的数字之和 Sum Root to Leaf Numbers](/leetcode/0129_求根节点到叶子节点的数字之和.md) | 二叉树，递归 | 中等 | 2024.4.12
+| 0129 | [求根节点到叶子节点的数字之和 Sum Root to Leaf Numbers](/leetcode/0129_求根节点到叶子节点的数字之和.md) | 二叉树，递归，回溯 | 中等 | 2024.4.12
+
+## 5. Week 5 (4.15-4.21)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0257 | [二叉树的所有路径 Binary Tree Paths](/leetcode/0257_二叉树的所有路径.md) | 二叉树，递归，回溯 | 简单 | 2024.4.16
