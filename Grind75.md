@@ -45,3 +45,4 @@
 | 0257 | [二叉树的所有路径 Binary Tree Paths](/leetcode/0257_二叉树的所有路径.md) | 二叉树，递归，回溯 | 简单 | 2024.4.16
 | 0297 | [ 二叉树的序列化与反序列化 Serialize and Deserialize Binary Tree](/leetcode/0297_二叉树的序列化与反序列化.md) | 二叉树，递归| 困难 | 2024.4.17
 | 0404 | [ 左叶子之和 Sum of Left Leaves](/leetcode/0404_左叶子之和.md) | 二叉树，递归| 简单 | 2024.4.17
+| 0112 | [ 路径总和 Path Sum](/leetcode/0112_路径总和.md) | 二叉树，递归，回溯 | 简单 | 2024.4.17
