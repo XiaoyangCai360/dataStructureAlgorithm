@@ -48,3 +48,4 @@
 | 0112 | [ 路径总和 Path Sum](/leetcode/0112_路径总和.md) | 二叉树，递归，回溯 | 简单 | 2024.4.17
 | 0230 | [ 二叉搜索树中第K小的元素 Kth Smallest Element in BST](/leetcode/0230_二叉搜索树中第K小的元素.md) | 二叉搜索树，递归 | 中等 | 2024.4.18
 | 0098 | [ 验证二叉搜索树 Validate Binary Search Tree](/leetcode/0098_验证二叉搜索树.md) | 二叉搜索树，递归 | 中等 | 2024.4.19
+| 0538 | [ 把二叉搜索树转换为累加树 Convert BST to Great Sum Tree](/leetcode/0538_把二叉搜索树转换为累加树.md) | 二叉搜索树，递归 | 中等 | 2024.4.21
