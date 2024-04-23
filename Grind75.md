@@ -49,3 +49,6 @@
 | 0230 | [ 二叉搜索树中第K小的元素 Kth Smallest Element in BST](/leetcode/0230_二叉搜索树中第K小的元素.md) | 二叉搜索树，递归 | 中等 | 2024.4.18
 | 0098 | [ 验证二叉搜索树 Validate Binary Search Tree](/leetcode/0098_验证二叉搜索树.md) | 二叉搜索树，递归 | 中等 | 2024.4.19
 | 0538 | [ 把二叉搜索树转换为累加树 Convert BST to Great Sum Tree](/leetcode/0538_把二叉搜索树转换为累加树.md) | 二叉搜索树，递归 | 中等 | 2024.4.21
+| 0700 | [ 二叉搜索树中的搜索 Search in a Binary Search Tree](/leetcode/0700_二叉搜索树中的搜索.md) | 二叉搜索树，递归 | 简单 | 2024.4.21
+| 0701 | [ 二叉搜索树中的插入操作 Insert Into a Binary Search Tree](/leetcode/0701_二叉搜索树中的插入操作.md) | 二叉搜索树，递归 | 中等 | 2024.4.21
+| 0450 | [ 删除二叉搜索树中的节点 Delete Node in a BST](/leetcode/0450_删除二叉搜索树中的节点.md) | 二叉搜索树，递归 | 中等 | 2024.4.21
