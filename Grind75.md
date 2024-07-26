@@ -36,7 +36,7 @@
 | 0105 | [从前序与中序遍历序列构造二叉树 Construct Binary Tree from Preorder and Inorder Traversal](/leetcode/0105_从前序与中序遍历序列构造二叉树.md) | 二叉树，递归 | 中等 | 2024.4.8
 | 0106 | [从中序与后序遍历序列构造二叉树 Construct Binary Tree from Inorder and Postorder Traversal](/leetcode/0106_从中序与后序遍历序列构造二叉树.md) | 二叉树，递归 | 中等 | 2024.4.8
 | 0889 | [根据前序与后序遍历构造二叉树 Construct Binary Tree from Preorder and Postorder Traversal](/leetcode/0889_根据前序与后序遍历构造二叉树.md) | 二叉树，递归 | 中等 | 2024.4.10
-| 0652 | [寻找重复的子树 Find Duplicate Subtrees]() | 二叉树，递归 | 中等 | 2024.4.11
+| 0652 | [寻找重复的子树 Find Duplicate Subtrees](/leetcode/0652_寻找重复的子树.md) | 二叉树，递归 | 中等 | 2024.4.11
 | 0129 | [求根节点到叶子节点的数字之和 Sum Root to Leaf Numbers](/leetcode/0129_求根节点到叶子节点的数字之和.md) | 二叉树，递归，回溯 | 中等 | 2024.4.12
 
 ## 5. Week 5 (4.15-4.21)
@@ -54,7 +54,7 @@
 | 0450 | [ 删除二叉搜索树中的节点 Delete Node in a BST](/leetcode/0450_删除二叉搜索树中的节点.md) | 二叉搜索树，递归 | 中等 | 2024.4.21
 
 
-## 5. Week 6 (4.22-4.28)
+## 6. Week 6 (4.22-4.28)
 | 题号 | 标题 | 标签 | 难度 | 日期 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0530 | [ 二叉搜索树的最小绝对差 Minimum Absolute Difference in BST](/leetcode/0530_二叉搜索树的最小绝对差.md/) | 二叉搜索树，递归 | 简单 | 2024.4.23
@@ -63,3 +63,7 @@
 | 0235 | [ 二叉搜索树的最近公共祖先 Lowest Common Ancestor of a Binary Search Tree]() | 二叉搜索树，递归 | 中等 | 2024.4.25
 | 0669 | [ 修剪二叉搜索树 Trim a Binary Search Tree ]() | 二叉搜索树，递归 | 中等 | 2024.4.25
 | 0108 | [ 将有序数组转换为二叉搜索树 Convert Sorted Array to Binary Search Tree ]() | 二叉搜索树，递归 | 简单 | 2024.4.25
+
+## 7. Week 7 (7.22-7.28)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
