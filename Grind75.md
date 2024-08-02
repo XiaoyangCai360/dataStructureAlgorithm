@@ -64,6 +64,8 @@
 | 0669 | [ 修剪二叉搜索树 Trim a Binary Search Tree ]() | 二叉搜索树，递归 | 中等 | 2024.4.25
 | 0108 | [ 将有序数组转换为二叉搜索树 Convert Sorted Array to Binary Search Tree ]() | 二叉搜索树，递归 | 简单 | 2024.4.25
 
-## 7. Week 7 (7.22-7.28)
+## 7. Week 7 (7.29-8.4)
 | 题号 | 标题 | 标签 | 难度 | 日期 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
+| 1676 | [ 二叉树中的最近公共祖先IV Lowest Common Ancestor of a Binary Tree IV]() | 二叉树，递归 | 中等 | 2024.8.1
+| 1644 | [ 二叉树中的最近公共祖先II Lowest Common Ancestor of a Binary Tree II]() | 二叉树，递归 | 中等 | 2024.8.1
