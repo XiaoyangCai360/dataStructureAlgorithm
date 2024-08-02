@@ -59,7 +59,7 @@
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0530 | [ 二叉搜索树的最小绝对差 Minimum Absolute Difference in BST](/leetcode/0530_二叉搜索树的最小绝对差.md/) | 二叉搜索树，递归 | 简单 | 2024.4.23
 | 0501 | [ 二叉搜索树中的众数 Find Mode in BST](/leetcode/0501_二叉搜索树中的众数.md) | 二叉搜索树，递归 | 简单 | 2024.4.23
-| 0236 | [ 二叉树中的最近公共祖先 Lowest Common Ancestor of a Binary Tree]() | 二叉树，递归 | 中等 | 2024.4.25
+| 0236 | [ 二叉树中的最近公共祖先 Lowest Common Ancestor of a Binary Tree](/leetcode/0236_二叉树中的最近公共祖先.md) | 二叉树，递归 | 中等 | 2024.4.25
 | 0235 | [ 二叉搜索树的最近公共祖先 Lowest Common Ancestor of a Binary Search Tree]() | 二叉搜索树，递归 | 中等 | 2024.4.25
 | 0669 | [ 修剪二叉搜索树 Trim a Binary Search Tree ]() | 二叉搜索树，递归 | 中等 | 2024.4.25
 | 0108 | [ 将有序数组转换为二叉搜索树 Convert Sorted Array to Binary Search Tree ]() | 二叉搜索树，递归 | 简单 | 2024.4.25
