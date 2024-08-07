@@ -71,3 +71,10 @@
 | 1644 | [ 二叉树中的最近公共祖先II Lowest Common Ancestor of a Binary Tree II]() | 二叉树，递归 | 中等 | 2024.8.1
 | 0102| [二叉树层序遍历 Binary Tree Level Order Traversal](/leetcode/0102_二叉树的层序遍历.md)| 二叉树、二叉树遍历 | 中等 | 2024.8.4
 | 0199| [二叉树的右视图 Binary Tree Right Side View](/leetcode/0199_二叉树的右视图.md)| 二叉树、二叉树遍历 | 中等 | 2024.8.4
+
+## 7. Week 8 (8.5-8.11)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0278 | [ 第一个错误版本 First Bad Version]() | 二分查找 | 简单 | 2024.8.5
+| 0021 | [ 合并两个有序链表 Merge Two Sorted Lists](/leetcode/0021_合并两个有序链表.md) | 链表，双指针 | 简单 | 2024.8.6
+| 0086 | [ 分隔链表 Partition List](/leetcode/0086_分隔链表.md) | 链表，双指针 | 中等 | 2024.8.6
