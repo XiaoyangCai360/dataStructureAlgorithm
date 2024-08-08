@@ -78,3 +78,6 @@
 | 0278 | [ 第一个错误版本 First Bad Version]() | 二分查找 | 简单 | 2024.8.5
 | 0021 | [ 合并两个有序链表 Merge Two Sorted Lists](/leetcode/0021_合并两个有序链表.md) | 链表，双指针 | 简单 | 2024.8.6
 | 0086 | [ 分隔链表 Partition List](/leetcode/0086_分隔链表.md) | 链表，双指针 | 中等 | 2024.8.6
+| 0876 | [ 链表的中间节点 Middle of the Linked List](/leetcode/0876_链表的中间节点.md) | 链表，双指针 | 简单 | 2024.8.6
+| 0141 | [ 环形链表 Linked List Cycle]() | 链表，双指针 | 简单 | 2024.8.6
+| 0142 | [ 环形链表II Linked List Cycle II](/leetcode/0142_环形链表II.md) | 链表，双指针 | 中等 | 2024.8.6
