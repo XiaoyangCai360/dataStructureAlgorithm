@@ -82,3 +82,5 @@
 | 0141 | [ 环形链表 Linked List Cycle]() | 链表，双指针 | 简单 | 2024.8.6
 | 0142 | [ 环形链表II Linked List Cycle II](/leetcode/0142_环形链表II.md) | 链表，双指针 | 中等 | 2024.8.6
 | 0160 | [ 相交链表 Intersection of Two Linked Lists](/leetcode/0160_链表相交.md) | 链表，双指针 | 简单 | 2024.8.8
+| 0026 | [ 删除有序数组中的重复项 Remove Duplicates from Sorted Array](/leetcode/0026_删除有序数组中的重复项.md) | 数组，双指针 | 简单 | 2024.8.9
+| 0083 | [ 删除排序列表中的重复元素 Remove Duplicates from Sorted List](/leetcode/0083_删除排序列表中的重复元素.md) | 链表，双指针 | 简单 | 2024.8.9
