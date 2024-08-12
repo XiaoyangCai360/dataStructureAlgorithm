@@ -72,7 +72,7 @@
 | 0102| [二叉树层序遍历 Binary Tree Level Order Traversal](/leetcode/0102_二叉树的层序遍历.md)| 二叉树、二叉树遍历 | 中等 | 2024.8.4
 | 0199| [二叉树的右视图 Binary Tree Right Side View](/leetcode/0199_二叉树的右视图.md)| 二叉树、二叉树遍历 | 中等 | 2024.8.4
 
-## 7. Week 8 (8.5-8.11)
+## 8. Week 8 (8.5-8.11)
 | 题号 | 标题 | 标签 | 难度 | 日期 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0278 | [ 第一个错误版本 First Bad Version]() | 二分查找 | 简单 | 2024.8.5
@@ -84,3 +84,9 @@
 | 0160 | [ 相交链表 Intersection of Two Linked Lists](/leetcode/0160_链表相交.md) | 链表，双指针 | 简单 | 2024.8.8
 | 0026 | [ 删除有序数组中的重复项 Remove Duplicates from Sorted Array](/leetcode/0026_删除有序数组中的重复项.md) | 数组，双指针 | 简单 | 2024.8.9
 | 0083 | [ 删除排序列表中的重复元素 Remove Duplicates from Sorted List](/leetcode/0083_删除排序列表中的重复元素.md) | 链表，双指针 | 简单 | 2024.8.9
+
+## 9. Week 9 (8.12-8.17)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0206 | [ 反转链表 Reverse Linked List](/leetcode/0206_反转链表.md) | 链表，双指针，递归 | 简单 | 2024.8.12
+| 0092 | [ 反转链表II Reverse Linked List II](/leetcode/0092_反转链表II.md) | 链表，双指针，递归 | 中等 | 2024.8.12
