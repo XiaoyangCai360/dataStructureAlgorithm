@@ -91,3 +91,4 @@
 | 0206 | [ 反转链表 Reverse Linked List](/leetcode/0206_反转链表.md) | 链表，双指针，递归 | 简单 | 2024.8.12
 | 0092 | [ 反转链表II Reverse Linked List II](/leetcode/0092_反转链表II.md) | 链表，双指针，递归 | 中等 | 2024.8.12
 | 0117| [填充每个节点的下一个右侧节点指针II Populating Next Right Pointers in Each Node II]()| 二叉树、二叉树层序遍历 | 中等 | 2024.8.12
+| 0025 | [ K个一组翻转链表 Reverse Nodes in K-Group](/leetcode/0025_K个一组翻转链表.md) | 链表，递归 | 困难 | 2024.8.13
