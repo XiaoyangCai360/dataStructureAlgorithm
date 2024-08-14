@@ -95,3 +95,4 @@
 | 1836 | [ 从未排序的链表中移除重复元素 Remove Duplicates from an Unsorted Linked List]() | 链表，双指针，哈希表 | 中等 | 2024.8.13
 | 0237 | [ 删除链表中的节点 Delete Node in a Linked List]() | 链表 | 中等 | 2024.8.13
 | 0019 | [ 删除链表倒数第N个的节点 Delete Node in a Linked List](/leetcode/0019_删除链表倒数第N个节点.md) | 链表，双指针 | 中等 | 2024.8.13
+| 0082 | [ 删除排序列表中的重复元素II Remove Duplicates from Sorted List II]() | 链表，双指针 | 中等 | 2024.8.14
