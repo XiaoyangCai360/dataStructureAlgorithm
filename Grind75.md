@@ -97,3 +97,5 @@
 | 0019 | [ 删除链表倒数第N个的节点 Delete Node in a Linked List](/leetcode/0019_删除链表倒数第N个节点.md) | 链表，双指针 | 中等 | 2024.8.13
 | 0082 | [ 删除排序列表中的重复元素II Remove Duplicates from Sorted List II](/leetcode/0082_删除排序列表中的重复元素II.md) | 链表，双指针 | 中等 | 2024.8.14
 | 0024 | [ 两两交换链表中的节点 Swap Nodes In Pairs](/leetcode/0024_两两交换链表中的节点.md) | 链表，双指针，递归 | 中等 | 2024.8.14
+| 0002 | [ 两数相加 Add Two Numbers](/leetcode/0002_两数相加.md) | 链表，双指针 | 中等 | 2024.8.15
+| 0445 | [ 两数相加II Add Two Numbers II](/leetcode/0445_两数相加II.md) | 链表，双指针 | 中等 | 2024.8.15
