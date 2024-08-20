@@ -102,3 +102,4 @@
 | 0143 | [ 重排链表 Reorder List](/leetcode/0143_重排链表.md) | 链表，双指针，递归 | 中等 | 2024.8.16
 | 0203 | [移除链表元素 Remove Linked List Element](/leetcode/0203_移除链表元素.md) | 链表 | 简单 | 2024.8.17
 | 2487 | [从链表中移除节点 Remove Nodes from Linked List](/leetcode/2487_从链表中移除节点.md) | 链表 | 中等 | 2024.8.17
+| 2816 | [翻倍以链表形式表示的数字 Double a Number Represented as a Linked List]() | 链表 | 中等 | 2024.8.17
