@@ -115,6 +115,7 @@
 | 0611 | [有效三角形的个数 Valid Triangle Number](/leetcode/0611_有效三角形的个数.md) | 数组，双指针 | 中等 | 2024.8.20
 | 0011 | [盛最多水的容器 Container With Most Water](/leetcode/0011_盛最多水的容器.md) | 数组，双指针 | 中等 | 2024.8.21
 | 0209 | [长度最小的子数组 Minimum Size Subarray Sum](/leetcode/0209_长度最小的子数组.md) | 数组，滑动窗口 | 中等 | 2024.8.22
-| 0003 | [无重复字符的最长子串 Longest Substring without Repeting Characters](/leetcode/0003_无重复字符的最长子串.md) | 数组，滑动窗口 | 中等 | 2024.8.22
+| 0003 | [无重复字符的最长子串 Longest Substring without Repeting Characters](/leetcode/0003_无重复字符的最长子串.md) | 字符串，滑动窗口 | 中等 | 2024.8.22
 | 0713 | [乘积小于 K 的子数组 Subarray Product Less Than K](/leetcode/0713_乘积小于%20K%20的子数组.md) | 数组，滑动窗口 | 中等 | 2024.8.22
 | 2958 | [最多K个重复元素的最长子数组 Length of Longest Subarray With Atmost K Frequency](/leetcode/2958_最多K个重复元素的最长子数组.md) | 数组，滑动窗口 | 中等 | 2024.8.24
+| 2730 | [找到最长的半重复子字符串 Find the Longest Semi-Repetitive String](/leetcode/2730_找到最长的半重复子字符串.md) | 字符串，滑动窗口 | 中等 | 2024.8.24
