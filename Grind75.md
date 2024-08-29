@@ -119,3 +119,9 @@
 | 0713 | [乘积小于 K 的子数组 Subarray Product Less Than K](/leetcode/0713_乘积小于%20K%20的子数组.md) | 数组，滑动窗口 | 中等 | 2024.8.22
 | 2958 | [最多K个重复元素的最长子数组 Length of Longest Subarray With Atmost K Frequency](/leetcode/2958_最多K个重复元素的最长子数组.md) | 数组，滑动窗口 | 中等 | 2024.8.24
 | 2730 | [找到最长的半重复子字符串 Find the Longest Semi-Repetitive String](/leetcode/2730_找到最长的半重复子字符串.md) | 字符串，滑动窗口 | 中等 | 2024.8.24
+
+
+## 11. Week 11 (8.26-9.1)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0034 | [在排序数组中查找元素的第一个和最后一个位置 Find First And Last Position of Element In Sorted Array](/leetcode/0034_在排序数组中查找元素的第一个和最后一个位置.md) | 数组，二分查找 | 中等 | 2024.8.28
