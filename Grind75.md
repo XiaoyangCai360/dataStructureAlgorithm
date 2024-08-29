@@ -125,3 +125,6 @@
 | 题号 | 标题 | 标签 | 难度 | 日期 |
 | ----------- | ----------- | ----------- | ----------- | ----------- |
 | 0034 | [在排序数组中查找元素的第一个和最后一个位置 Find First And Last Position of Element In Sorted Array](/leetcode/0034_在排序数组中查找元素的第一个和最后一个位置.md) | 数组，二分查找 | 中等 | 2024.8.28
+| 2529 | [正整数和负整数的最大计数 Maximum Count of Positive Integer and Negative Integer]() | 数组，二分查找 | 简单 | 2024.8.28
+| 2300 | [咒语和药水的成功对数 Successful Pairs of Spells and Potions]() | 数组，二分查找 | 中等 | 2024.8.28
+| 0035 | [搜索插入位置 Search Insert Postion](/leetcode/0035_搜索插入位置.md) | 数组，二分查找 | 简单 | 2024.8.28
