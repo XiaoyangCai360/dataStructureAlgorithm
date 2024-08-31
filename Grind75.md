@@ -128,3 +128,5 @@
 | 2529 | [正整数和负整数的最大计数 Maximum Count of Positive Integer and Negative Integer]() | 数组，二分查找 | 简单 | 2024.8.28
 | 2300 | [咒语和药水的成功对数 Successful Pairs of Spells and Potions]() | 数组，二分查找 | 中等 | 2024.8.28
 | 0035 | [搜索插入位置 Search Insert Postion](/leetcode/0035_搜索插入位置.md) | 数组，二分查找 | 简单 | 2024.8.28
+| 0162 | [寻找峰值 Find Peak Element](/leetcode/0162_寻找峰值.md) | 数组，二分查找 | 中等 | 2024.8.29
+| 0153 | [寻找旋转排序数组中的最小值 Find Minimum in Rotated Sorted Array](/leetcode/0153_寻找旋转排序数组中的最小值.md) | 数组，二分查找 | 中等 | 2024.8.29
