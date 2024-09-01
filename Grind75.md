@@ -130,3 +130,4 @@
 | 0035 | [搜索插入位置 Search Insert Postion](/leetcode/0035_搜索插入位置.md) | 数组，二分查找 | 简单 | 2024.8.28
 | 0162 | [寻找峰值 Find Peak Element](/leetcode/0162_寻找峰值.md) | 数组，二分查找 | 中等 | 2024.8.29
 | 0153 | [寻找旋转排序数组中的最小值 Find Minimum in Rotated Sorted Array](/leetcode/0153_寻找旋转排序数组中的最小值.md) | 数组，二分查找 | 中等 | 2024.8.29
+| 0033 | [搜索旋转排序数组 Search Rotated Sorted Array](/leetcode/0033_搜索旋转排序数组.md) | 数组，二分查找 | 中等 | 2024.8.31
