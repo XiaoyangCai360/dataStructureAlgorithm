@@ -138,3 +138,15 @@
 | 0226 | [翻转二叉树 Invert Binary Tree](/leetcode/0226_翻转二叉树.md) | 二叉树，递归 | 简单 | 2024.9.1
 | 1080 | [根到叶路径上的不足节点 Insufficient Nodes in Node to Leaf Path](/leetcode/1080_根到叶路径上的不足节点.md) | 二叉树，递归 | 中等 | 2024.9.1
 | 0098 | [ 验证二叉搜索树 Validate Binary Search Tree](/leetcode/0098_验证二叉搜索树.md) | 二叉搜索树，递归 | 中等 | 2024.9.1
+
+## 12. Week 12 (9.2-9.7)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0938 | [ 二叉搜索树的范围和 Range Sum of BST]() | 二叉搜索树，递归 | 简单 | 2024.9.3
+| 2476 | [ 二叉搜索树的最近节点查询 Closet Nodes Queries in a Binary Search Tree]() | 二叉搜索树，递归，二分查找 | 中等 | 2024.9.3
+| 1373 | [ 二叉搜索子树的最大键值和 Maximum Sum BST in Binary Tree](/leetcode/1373_二叉搜索子树的最大键值和.md) | 二叉搜索树，递归 | 困难 | 2024.9.4
+| 0530 | [ 二叉搜索树的最小绝对差 Minimum Absolute Difference in BST](/leetcode/0530_二叉搜索树的最小绝对差.md/) | 二叉搜索树，递归 | 简单 | 2024.9.4
+| 0230 | [ 二叉搜索树中第K小的元素 Kth Smallest Element in BST](/leetcode/0230_二叉搜索树中第K小的元素.md) | 二叉搜索树，递归 | 中等 | 2024.9.4
+| 0103 | [ 二叉数的锯齿形层序遍历 Binary Tree Zigzag Level Order Traversal]() | 二叉树，层序遍历 | 中等 | 2024.9.4
+| 0513 | [ 找树最小角的值 Find Bottom Left Tree Value]() | 二叉树，层序遍历 | 中等 | 2024.9.4
+| 0107 | [ 二叉数的层序遍历II Binary Tree Level Order Traversal II]() | 二叉树，层序遍历 | 中等 | 2024.9.4
