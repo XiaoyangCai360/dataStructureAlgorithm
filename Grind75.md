@@ -150,3 +150,6 @@
 | 0103 | [ 二叉数的锯齿形层序遍历 Binary Tree Zigzag Level Order Traversal]() | 二叉树，层序遍历 | 中等 | 2024.9.4
 | 0513 | [ 找树最小角的值 Find Bottom Left Tree Value]() | 二叉树，层序遍历 | 中等 | 2024.9.4
 | 0107 | [ 二叉数的层序遍历II Binary Tree Level Order Traversal II]() | 二叉树，层序遍历 | 中等 | 2024.9.4
+| 0017 | [ 电话号码的字母组合 Letter Combinations of a Phone Number](/leetcode/0017_电话号码的字母组合.md) | 回溯，DFS | 中等 | 2024.9.5
+| 0078 | [ 子集 Subsets](/leetcode/0078_子集.md) | 回溯，DFS | 中等 | 2024.9.5
+| 0046 | [ 全排列 Permutations](/leetcode/0046_全排列.md) | 回溯，DFS | 中等 | 2024.9.5
