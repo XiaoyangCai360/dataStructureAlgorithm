@@ -164,3 +164,8 @@
 | 0112 | [ 路径总和 Path Sum](/leetcode/0112_路径总和.md) | 二叉树，递归，回溯 | 简单 | 2024.9.19
 | 0113 | [ 路径总和 Path Sum II]() | 二叉树，递归，回溯 | 中等 | 2024.9.19
 | 0131 | [ 分割回文串 Palindrome Partitioning](/leetcode/0131_分割回文串.md) | 回溯，DFS | 中等 | 2024.9.19
+| 0077 | [ 组合 Combination]() | 回溯，DFS | 中等 | 2024.9.19
+| 0216 | [ 组合总和III Combination Sum III]() | 回溯，DFS | 中等 | 2024.9.19
+| 0039 | [ 组合总和 Combination Sum]() | 回溯，DFS | 中等 | 2024.9.19
+| 0022 | [ 括号生成 Generate Parentheses]() | 回溯，DFS | 中等 | 2024.9.19
+| 0125 | [ 验证回文串 Valid Palindrome]() | 双指针，字符串 | 简单 | 2024.9.19
