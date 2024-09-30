@@ -164,8 +164,35 @@
 | 0112 | [ 路径总和 Path Sum](/leetcode/0112_路径总和.md) | 二叉树，递归，回溯 | 简单 | 2024.9.19
 | 0113 | [ 路径总和 Path Sum II]() | 二叉树，递归，回溯 | 中等 | 2024.9.19
 | 0131 | [ 分割回文串 Palindrome Partitioning](/leetcode/0131_分割回文串.md) | 回溯，DFS | 中等 | 2024.9.19
-| 0077 | [ 组合 Combination]() | 回溯，DFS | 中等 | 2024.9.19
-| 0216 | [ 组合总和III Combination Sum III]() | 回溯，DFS | 中等 | 2024.9.19
+| 0077 | [ 组合 Combination](/leetcode/0077_组合.md) | 回溯，DFS | 中等 | 2024.9.19
+| 0216 | [ 组合总和III Combination Sum III](/leetcode/0216_组合总和III.md) | 回溯，DFS | 中等 | 2024.9.19
 | 0039 | [ 组合总和 Combination Sum]() | 回溯，DFS | 中等 | 2024.9.19
 | 0022 | [ 括号生成 Generate Parentheses]() | 回溯，DFS | 中等 | 2024.9.19
 | 0125 | [ 验证回文串 Valid Palindrome]() | 双指针，字符串 | 简单 | 2024.9.19
+
+
+## 14. Week 14 (9.23-9.29)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0046 | [ 全排列 Permutations](/leetcode/0046_全排列.md) | 回溯，DFS | 中等 | 2024.9.23
+| 0051 | [ N皇后 N Queens]() | 回溯，DFS | 困难 | 2024.9.23
+| 0046 | [ N皇后II N Queens II]() | 回溯，DFS | 困难 | 2024.9.23
+| 0383 | [ 赎金信 Ransom Note](/leetcode/0383_赎金信.md) | 哈希表 | 简单 | 2024.9.23
+| 0205 | [ 同构字符串 Isomorphic Strings]() | 哈希表 | 简单 | 2024.9.23
+| 0198 | [ 打家劫舍 House Robber]() | 动态规划，一维DP | 中等 | 2024.9.24
+| 0070 | [ 爬楼梯 Climbing Stairs]() | 动态规划，一维DP | 简单 | 2024.9.24
+| 0746 | [ 使用最小花费爬楼梯 Min Cost Climbing Stairs]() | 动态规划，一维DP | 简单 | 2024.9.24
+| 2466 | [ 统计构造好字符串的方案数 Count Ways to Build Good Strings]() | 动态规划，一维DP | 中等 | 2024.9.24
+| 0377 | [ 组合总和IV Combination Sum IV]() | 动态规划，一维DP | 中等 | 2024.9.24
+| 0213 | [ 打家劫舍II House Robber II]() | 动态规划，一维DP | 中等 | 2024.9.25
+| 0494 | [ 目标和 Target Sum]() | 动态规划，0-1背包 | 中等 | 2024.9.25
+| 0322 | [ 零钱兑换 Coin Change]() | 动态规划，完全背包 | 中等 | 2024.9.25
+| 2915 | [ 和为目标值的最长子序列长度 PLength of the Longest Subsequence That Sums to Target]() | 动态规划，0-1背包 | 中等 | 2024.9.26
+| 3300 | [ 替换为数位和以后的最小元素 Minimum Element After Replacement With Digit Sum]() | 字符串 | 简单 | 2024.9.29
+| 0416 | [ 分割等和子集 Partition Equal Subset Sum]() | 动态规划，0-1背包 | 中等 | 2024.9.29
+| 2787 | [ 将一个数字表示成幂的和的方案数 Ways to Express an Integer as Sum of Powers]() | 动态规划，0-1背包 | 中等 | 2024.9.29
+| 0518 | [ 零钱兑换II Coin Change II]() | 动态规划，完全背包 | 中等 | 2024.9.29
+| 0279 | [ 完全平方数 Perfect Squares]() | 动态规划，完全背包 | 中等 | 2024.9.29
+| 0740 | [ 删除并获得点数 Delete and Earn]() | 动态规划，一维DP | 中等 | 2024.9.29
+
+
