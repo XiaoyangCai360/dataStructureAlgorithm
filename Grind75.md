@@ -196,3 +196,13 @@
 | 0740 | [ 删除并获得点数 Delete and Earn]() | 动态规划，一维DP | 中等 | 2024.9.29
 
 
+## 15. Week 15 (9.30-9.6)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0046 | [ 全排列 Permutations](/leetcode/0046_全排列.md) | 回溯，DFS | 中等 | 2024.9.30
+| 0051 | [ N皇后 N Queens]() | 回溯，DFS | 困难 | 2024.9.30
+| 0046 | [ N皇后II N Queens II]() | 回溯，DFS | 困难 | 2024.9.30
+| 1143 | [ 最长公共子序列 Longest Common Subsequence]() | 动态规划，线性DP | 中等 | 2024.10.1
+| 0072 | [ 编辑距离 Edit Distance]() | 动态规划，线性DP | 中等 | 2024.10.1
+| 0583 | [ 两个字符串的删除操作 Delete Operations for Two Strings]() | 动态规划，线性DP | 中等 | 2024.10.1
+| 0712 | [ 两个字符串的最小ASCII删除和 Minimum ASCII Delete Sum for Two Strings]() | 动态规划，线性DP | 中等 | 2024.10.1
