@@ -206,3 +206,10 @@
 | 0072 | [ 编辑距离 Edit Distance]() | 动态规划，线性DP | 中等 | 2024.10.1
 | 0583 | [ 两个字符串的删除操作 Delete Operations for Two Strings]() | 动态规划，线性DP | 中等 | 2024.10.1
 | 0712 | [ 两个字符串的最小ASCII删除和 Minimum ASCII Delete Sum for Two Strings]() | 动态规划，线性DP | 中等 | 2024.10.1
+| 0097 | [ 交错字符串 Interleaving String]() | 动态规划，线性DP | 中等 | 2024.10.2
+| 1458 | [ 两个子序列的最大点积 Max Dot Product of Two Subsequence]() | 动态规划，线性DP | 困难 | 2024.10.2
+| 1092 | [ 最短公共超序列 Shortest Common Supersequence]() | 动态规划，线性DP | 困难 | 2024.10.2
+| 0518 | [ 零钱兑换II Coin Change II]() | 动态规划，完全背包 | 中等 | 2024.10.3
+| 0242 | [有效的字母异位词 Valid Anagram](/leetcode/0242_有效的字母异位词.md) | 哈希表 | 简单 | 2024.10.2
+| 0290 | [单词规律 Word Pattern]() | 哈希表 | 简单 | 2024.10.2
+| 0049 | [字母异位词分词 Group Anagrams]() | 哈希表 | 中等 | 2024.10.2
