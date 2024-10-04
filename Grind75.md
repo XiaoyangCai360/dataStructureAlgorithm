@@ -210,6 +210,9 @@
 | 1458 | [ 两个子序列的最大点积 Max Dot Product of Two Subsequence]() | 动态规划，线性DP | 困难 | 2024.10.2
 | 1092 | [ 最短公共超序列 Shortest Common Supersequence]() | 动态规划，线性DP | 困难 | 2024.10.2
 | 0518 | [ 零钱兑换II Coin Change II]() | 动态规划，完全背包 | 中等 | 2024.10.3
-| 0242 | [有效的字母异位词 Valid Anagram](/leetcode/0242_有效的字母异位词.md) | 哈希表 | 简单 | 2024.10.2
-| 0290 | [单词规律 Word Pattern]() | 哈希表 | 简单 | 2024.10.2
-| 0049 | [字母异位词分词 Group Anagrams]() | 哈希表 | 中等 | 2024.10.2
+| 0242 | [有效的字母异位词 Valid Anagram](/leetcode/0242_有效的字母异位词.md) | 哈希表 | 简单 | 2024.10.3
+| 0290 | [单词规律 Word Pattern]() | 哈希表 | 简单 | 2024.10.3
+| 0049 | [字母异位词分词 Group Anagrams]() | 哈希表 | 中等 | 2024.10.3
+| 0202 | [快乐数 Happy Number](/leetcode/0202_快乐数.md) | 哈希表 | 简单 | 2024.10.3
+| 0219 | [存在不同元素II Contains Duplicate II]() | 哈希表 | 简单 | 2024.10.3
+| 0128 | [最长连续序列 Longest Consecutive Sequence]() | 哈希表 | 中等 | 2024.10.3
