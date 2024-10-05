@@ -216,3 +216,10 @@
 | 0202 | [快乐数 Happy Number](/leetcode/0202_快乐数.md) | 哈希表 | 简单 | 2024.10.3
 | 0219 | [存在不同元素II Contains Duplicate II]() | 哈希表 | 简单 | 2024.10.3
 | 0128 | [最长连续序列 Longest Consecutive Sequence]() | 哈希表 | 中等 | 2024.10.3
+| 0036 | [有效的数独 Valid Sudoku]() | 矩阵 | 中等 | 2024.10.3
+| 0066 | [加一 Plus One]() | 数学 | 简单 | 2024.10.4
+| 0069 | [x的平方根 Sqrtx]() | 数学 | 简单 | 2024.10.4
+| 0300 | [ 最长递增子序列 Longest Increasing Subsequence]() | 动态规划，线性DP | 中等 | 2024.10.4
+| 0673 | [ 最长递增子序列的个数 Number of Longest Increasing Subsequence]() | 动态规划，线性DP | 中等 | 2024.10.4
+| 0673 | [ 最长递增子序列的个数 Number of Longest Increasing Subsequence]() | 动态规划，线性DP | 中等 | 2024.10.4
+| 2826 | [ 将三个组排序 Sorting Three Groups]() | 动态规划，线性DP | 中等 | 2024.10.4
