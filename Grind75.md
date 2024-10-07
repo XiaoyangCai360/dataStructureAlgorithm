@@ -214,7 +214,7 @@
 | 0290 | [单词规律 Word Pattern]() | 哈希表 | 简单 | 2024.10.3
 | 0049 | [字母异位词分词 Group Anagrams]() | 哈希表 | 中等 | 2024.10.3
 | 0202 | [快乐数 Happy Number](/leetcode/0202_快乐数.md) | 哈希表 | 简单 | 2024.10.3
-| 0219 | [存在不同元素II Contains Duplicate II]() | 哈希表 | 简单 | 2024.10.3
+| 0219 | [存在重复元素II Contains Duplicate II]() | 哈希表 | 简单 | 2024.10.3
 | 0128 | [最长连续序列 Longest Consecutive Sequence]() | 哈希表 | 中等 | 2024.10.3
 | 0036 | [有效的数独 Valid Sudoku]() | 矩阵 | 中等 | 2024.10.3
 | 0066 | [加一 Plus One]() | 数学 | 简单 | 2024.10.4
@@ -223,3 +223,6 @@
 | 0673 | [ 最长递增子序列的个数 Number of Longest Increasing Subsequence]() | 动态规划，线性DP | 中等 | 2024.10.4
 | 0673 | [ 最长递增子序列的个数 Number of Longest Increasing Subsequence]() | 动态规划，线性DP | 中等 | 2024.10.4
 | 2826 | [ 将三个组排序 Sorting Three Groups]() | 动态规划，线性DP | 中等 | 2024.10.4
+| 0169 | [ 多数元素 Majority Element]() | 数组 | 简单 | 2024.10.6
+| 0058 | [ 最后一个单词的长度 Length of Last Word]() | 数组 | 简单 | 2024.10.6
+| 0064 | [ 最小路径和 Minimum Path Sum]() | 动态规划，二维DP | 中等 | 2024.10.6
