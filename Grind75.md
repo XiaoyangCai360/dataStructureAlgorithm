@@ -235,3 +235,32 @@
 | 0062 | [ 不同路径 Unique Paths ]() | 动态规划，二维DP | 中等 | 2024.10.7
 | 0063 | [ 不同路径II Unique Paths II ]() | 动态规划，二维DP | 中等 | 2024.10.7
 | 0079 | [ 单词搜索 Word Search]() | 回溯，网格图DFS | 中等 | 2024.10.7
+| 0054 | [ 螺旋矩阵 Spiral Matrix]() | 矩阵，网格图 | 中等 | 2024.10.8
+| 0059 | [ 螺旋矩阵II Spiral Matrix II]() | 矩阵，网格图 | 中等 | 2024.10.8
+| 0067 | [ 二进制求和 Add Binary]() | 数学，位运算 | 简单 | 2024.10.9
+| 0228 | [ 汇总区间 Summary Ranges]() | 区间 | 简单 | 2024.10.12
+| 0027 | [ 移除元素 Remove Element]() | 数组 | 简单 | 2024.10.12
+| 0026 | [ 删除有序数组的重复项 Remove Duplicate From Sorted Array]() | 数组 | 简单 | 2024.10.12
+| 0080 | [ 删除有序数组的重复项II Remove Duplicate From Sorted Array II]() | 数组 | 简单 | 2024.10.12
+| 0189 | [ 轮转数组 Rotate Array]() | 数组 | 中等 | 2024.10.13
+| 0061 | [ 旋转链表 Rotate List]() | 数组 | 中等 | 2024.10.13
+| 1480 | [ 一维数组的动态和 Running Sum of 1d Array]() | 数组，前缀和 | 简单 | 2024.10.13
+
+## 17. Week 17 (10.14-10.20)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
+| 0088 | [ 合并两个有序列表 Merge Sorted Array]() | 数组 | 简单 | 2024.10.15
+| 3319 | [ 第K大的完美二叉子树的大小  K-th Largest Perfect Subtree Size in Binary Tree]() | 二叉树，递归 | 中等 | 2024.10.15
+| 3318 | [ 计算子数组的x-sum I Find X-Sum of all K-Long Subarrays I]() | 数组，滑动窗口 | 简单 | 2024.10.15
+| 1456 | [ 定长子串中元音的最大数目 Maximum Number of Vowels in a Subarray of Given Length]() | 数组，滑动窗口 | 中等 | 2024.10.16
+| 0121 | [ 买卖股票的最佳时机 Best Time to Buy and Sell Stock]() | 数组，动态规划 | 简单 | 2024.10.18
+| 0122 | [ 买卖股票的最佳时机II Best Time to Buy and Sell StockII]() | 动态规划，状态机DP | 中等 | 2024.10.18
+| 0123 | [ 买卖股票的最佳时机III Best Time to Buy and Sell StockIII]() | 动态规划，状态机DP | 困难 | 2024.10.18
+| 0309 | [ 买卖股票的最佳时机含冷冻期 Best Time to Buy and Sell with Cooldown]() | 动态规划，状态机DP | 中等 | 2024.10.18
+| 0188 | [ 买卖股票的最佳时机IV Best Time to Buy and Sell IV]() | 动态规划，状态机DP | 困难 | 2024.10.18
+| 0714 | [ 买卖股票的最佳时机含手续费 Best Time to Buy and Sell with Transaction Fee]() | 动态规划，状态机DP | 中等 | 2024.10.18
+
+
+## 16. Week 16 (10.21-10.27)
+| 题号 | 标题 | 标签 | 难度 | 日期 |
+| ----------- | ----------- | ----------- | ----------- | ----------- |
